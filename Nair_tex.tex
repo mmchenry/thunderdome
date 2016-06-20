@@ -1,10 +1,3 @@
-%% Author_tex.tex
-%% V1.0
-%% 2012/13/12
-%% developed by Techset
-%%
-%% This file describes the coding for rsproca.cls
-
 \documentclass[]{rsos}%%%%where rsos is the template name
 
 %%%% *** Do not adjust lengths that control margins, column widths, etc. ***
@@ -17,10 +10,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+
 \begin{document}
 
 %%%% Article title to be placed here
-\title{Performance in sensing is more important than locomotion in predator evasion by zebrafish}
+\title{Survival depends critically on predator detection in zebrafish larvae}
 
 \author{%%%% Author details
 Arjun Nair, Christy Nguyen, and Matthew J. McHenry}
@@ -32,21 +26,16 @@ University of California, Irvine\\
 Irvine, CA 92697}
 
 %%%% Subject entries to be placed here %%%%
-\subject{Locomotion, strategy, sensing}
+\subject{Animal behavior, biomechanics}
 
 %%%% Keyword entries to be placed here %%%%
-\keywords{xxxx, xxxx, xxxx}
+\keywords{Game theory, locomotion, predation, sensing, strategy}
 
 %%%% Insert corresponding author and its email address}
 \corres{Matthew J. McHenry\\
 \email{mmchenry@uci.edu}}
 
-%%%% Abstract text to be placed here %%%%%%%%%%%%
-\begin{abstract}
-The abstract text goes here. The abstract text goes here. The abstract text goes here. The abstract text goes here.
-The abstract text goes here. The abstract text goes here. The abstract text goes here. The abstract text goes here.
-\end{abstract}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%% End of first page %%%%%%%%%%%%%%%%%%%%%
 
@@ -56,192 +45,151 @@ The abstract text goes here. The abstract text goes here. The abstract text goes
 
 %\begin{fmtext}
 
+\linespread{1.6}\selectfont %Doublespacing
 
 
+\section*{Abstract}
+The abstract text goes here. 
+
+%
 \section{Introduction}
 %%%% Insert A head here
 
-This demo file is intended to serve as a ``starter file''
-for rsproca journal papers produced under \LaTeX\ using
-rsproca.cls v1.5e.
-
-
-Here is Matt's sample citation: \cite{Alexander:1974ba}
-
 The citations are stored in the ref.bib file.  You can copy and paste citations from Papers as a "BibTex Record"
+\\
+The present study addressed the strategic importance of sensing and locomotion with a combination of experiments and mathematical modeling. 
+High-speed kinematics were recorded of swimming by a single zebrafish larva as it was pursued by an adult predator of the same species, as in previous studies \cite{Stewart:2014cma, Soto:2015cj}.
+Descriptive statistics of these interactions were used to characterize the probability of behavioral actions by both the predator and prey.
+These findings provided the basis of a game model that was used to simulate the conditions of our experiments. 
+Once verified, an analysis of this model was performed to evaluate the sensitivity of prey survival on the behavioral parameters of the predator and prey.
 
 \section{Material and methods}
 
 \subsection{Animal husbandry}
-%%%% Insert B head here
-All experiments were conducted on zebrafish (Danio rerio, Hamilton 1922), where larvae (5-7 days post fertilization, dpf) were preyed upon by older fish of the same species. 
-To examine how these interactions vary with the size of the predator, we performed one set of experiments using adult ($\geq 9$ months old, 0.034 m +/- 0.005 m) predators and another using juveniles  ($3-4$ months old, 0.02 m +/-  0.004 m). 
-% * <mmchenry@uci.edu> 2016-05-16T22:19:20.867Z:
-%
-% > ($>9$ months old) predators and another using juvenile predators (3-4 months old). 
-%
-% You'll want to also provide body lengths here.
-%
-% ^.
+All experiments were conducted on zebrafish (Danio rerio, Hamilton 1922), where larvae (5 -- 7 days post fertilization, dpf) were preyed upon by older fish of the same species. 
+To examine how these interactions vary with the size of the predator, we performed one set of experiments using adult ($\geq 9$ months old, $\SI{3.4}{\cm} \pm \SI{0.5}{\cm}$) predators and another using juveniles  ($3-4$ months old, $\SI{2.0}{\cm}  \pm  \SI{0.4}{\cm}$). 
 All fish were bred from wild-type (AB line) colonies housed in a flow-through tank system (Aquatic Habitats, Apopka, FL, USA) that was maintained at $\SI{28.5}{\celsius}$ on a 14:10 h light:dark cycle. 
-To culture larvae, the fertilized eggs from randomized mating were cultured according to standard techniques (Westerfield, 1993).
+To culture larvae, the fertilized eggs from randomized mating were cultured according to standard techniques \cite{Westerfield:UXiBrEuA}.
+Predators were fasted for a period of 7 -- 14 days prior to an experiment to motivate feeding.
 
-\subsection{Live predator-prey observations}
-Predation experiments were performed by placing both predator and prey in hemispherical aquarium and recording swimming with three high-speed video cameras. The walls of the aquarium (8.5 cm in diameter) were comprise of white acrylic, which served as a transluent diffuser for the IR lamps Recordings of predator-prey interactions were taken using a large scaffold-like structure. This structure was custom-built with an extruded aluminum (80/20 Inc., Columbia City, IN, USA) and housed three high-speed cameras (Precision Photron Inc., San Diego, CA, USA), a 8.5 cm diameter, semi-translucent theater dome, and three infrared (IR) LED panels (somewhere else) (Fig. 1A). % * <mmchenry@uci.edu> 2016-06-06T11:38:53.425Z:
+\subsection{Kinematic measurements}
+We arranged the lights and cameras for high-speed recordings of both fish with high-contrast images. 
+The hemispherical aquarium ($\oslash = \SI{8.5}{\cm}$) was composed of white acrylic, which served as a translucent diffuser of the IR illumination (940 nm) provided by three lamps (CM-IR200-940, CMVision, Houston, TX, USA), positioned below (Fig. \ref{fig_setup}a). 
+These lamps provided high-intensity illumination that was invisible to the fish (CITE), while visible illumination at low intensity was provided by overhead fluorescent lights.
+Each camera (FASTCAM Mini UX50, Precision Photron Inc., San Diego, CA, USA) was fitted with a with a 55mm lens (f/2.8 Micro Nikkor AIS, Nikon Inc., Melville, NY, USA) and positioned at a distance that viewed the entire aquarium. 
+The cameras were distributed above the aquarium to allow both fish to be viewed by at least two cameras when the fish were positioned close together.
+The cameras were synchronized to record at 1000 fps (at 1280 x 1024 pix) with a common TTL end-trigger and controlled with the manufacturer's software (PhotronFASTCAM Viewer).
+
+Predation experiments were performed by recording the swimming of one predator and one prey fish in a hemispherical aquarium (Fig. 1A). 
+Experiments were set up by placing the fish on opposite sides of a partition.
+Following a 15 min acclimation period, each experiment began by lifting the partition and ended when the predator successfully ingested the prey.
+We recorded $\sim \SI{0.5}{\s}$ before the first predatory strike and ended at $\sim \SI{0.5}{\s}$  after the prey was captured.
+
+The 3D kinematics of both fish were measured from the video recordings. 
+The cameras were calibrated by recording a body with 48 landmarks of known relative position that was placed in the center of the aquarium.
+Manually selecting the position coordinates from the view of the three cameras provided the basis for a direct-linear transform (DLT), which was calculated using  `Digitizing Tools' software in Matlab (2015a, MathWorks, Natick, MA, USA) \cite{Hedrick:2008wz}.
+Using a custom script in Matlab, we found the body positions of predator and prey fish by manually selecting landmarks from two camera views and using the DLT to find the coordinates in 3D space.
+For the predator, we found the position of the two eyes from which we calculated a mean position that approximated the buccal cavity (Fig. \ref{fig_setup}b).
+The rostrum and posterior margin of the swim bladder were found on the prey's body, which is a position that approximates the center of mass \cite{Stewart:2010ig}.
+We acquired the landmark positions at four key events in the interactions between predator and prey: (1) when the predator fish initiated an approach, when the predator (2) began and (3) completed suction feeding and (4) at the initiation of the prey's escape response.
+
+
+\subsection{Descriptive statistics}
+
+Descriptive statistics were used to characterize the probability of actions by the predator and prey during predation experiments.
+The predator-specific parameters consisted of the strike distance ($s$), the proximity from the prey at which a strike was initiated, and the strike duration ($\tau$), which is the period between the opening and closing of the mouth during suction feeding. 
+For the prey, we found the reaction distance ($l$), which is the proximity from the predator at which the escape response is initiated.
+The escape was additionally characterized by the the escape angle ($\theta$), the angular change in heading from the resting, and the escape duration.
+The escape duration ($\eta$) included the period for all stages of the C-start and subsequent undulatory swimming, until the larva ceased motion.
+The frequency distribution for each parameter was calculated for the interactions of all experiments and found to be well-approximated by the following log-normal probability density function:
 %
-% ^.
-The theater dome acted as the arena for the larval and predator (adult or juvenile) zebrafish with water from the zebrafish tank system . 
-Three high-speed cameras were mounted above the theater dome to record the predatory event from three different perspectives, which was necessary for the three-dimensional positional data collection. IR LED panels provided illumination for the the high-speed recordings. 
-IR panels were used instead of traditional light sources because zebrafish can not see infrared light (CITE). Therefore, the IR panels provided the necessary, high-intensity lighting for the recording, but would not blind the fish in the theater dome.
-% * <mmchenry@uci.edu> 2016-05-16T23:32:24.673Z:
+\begin{equation}%%% Equation lognormal distribution
+f(x) = \frac{1}{x\sigma \sqrt{2 \pi}} \text{exp} \left[ -{\frac{(ln(x)-\mu)^2}{2\sigma ^2}} \right],
+\label{eqn_lognorm}
+\end{equation}
 %
-% > 80-20 company
+where $x$ is a particular behavioral parameter, $\mu$ is the log mean, and $\sigma$ is the log standard deviation. 
+We determined best-fit values for $\mu$ and $\sigma$ for each behavioral parameter by maximum-likelihood (the 'fitdist' function in Matlab).
+
+The probability that the strike of a zebrafish predator is successful depends critically on the distance between the mouth and the prey \cite{Stewart:2013bha}.
+The capture probability (i.e. the ratio of captures to strikes) was measured as a function of distance, divided into intervals of ???, for all experiments.
+This probability $(C)$ was well-characterized by the following sigmoidal function:
 %
-% Don't forget to include the location of all vendors.
+\begin{equation}%%%Equation for sigmoid function
+C(d) = \frac{1}{1+e^{-r(d-d_0)}},
+\label{eqn_sig} 
+\end{equation}
 %
-% ^.
+where $d$ is the distance between predator and prey, $d_0$ is the decay distance, and $r$ is the decay rate. 
+The best-fit values for $d_0$ and $r$ were determined by least-squares (the 'sqcurvefit' function in Matlab).
 
-Predator-prey interactions were recorded between an adult or juvenile zebrafish and a larval zebrafish. One larval zebrafish and one predator zebrafish were placed in the theater dome with a partition between them. Both fish were left to acclimate to their surroundings for 15 minutes before the partition was removed. Immediately after removing the partition, all three cameras were triggered to record at the same time using a TTL (Transistor-Transistor logic) pulse and were recording synchronously at a 1000 frames per second using the native recording software (PhotronFASTCAM VIEWER, Precision Photron Inc., San Diego, CA, USA ). Recordings start about 0.5 seconds before the first predatory strike and ended about 0.5 seconds after the larval zebrafish was captured. Recordings were only collected if the predator zebrafish actively pursued and captured the larval zebrafish. To promote feeding behavior, predator zebrafish were fasted for one to two weeks.
+\subsection{Game-theory model}
 
-\subsection{Data collection and statistical analysis}
-Before any predator-prey recordings were captured, the experimental set-up was calibrated for three-dimensional data collection. A custom calibration body was created  and placed into the water-filled theater dome. The calibration body has 48 points suspended in three-dimensional space with known relative position. One image of the calibration body from each camera was taken and processed using “Digitizing Tools” (Hedrick, 2008) in MATLAB (2015a, MathWorks, Natick, MA, USA) to produce the three-dimensional calibration for data collection.
+A pursuit-evasion game model was developed to simulate the conditions of our experiments. 
+This game predicts the 2D motion of a predator (i.e. pursuer) and prey (i.e. evader) according to algorithms that are specific to the behavioral state of each of these agents (Fig. \ref{fig_setup}c). 
+The predator's states are Tracking (T) and Striking (S) and the prey's are Resting (R) and Escaping (E). 
+The duration of states, probability of transitioning between states, and probability of capture are determined by random-number generators with probability distributions and range of values that match the results of our kinematic measurements.
+Therefore, the game treats the predator and prey's actions as probabilistic, but each outcome of the interaction also depends on the determinism of the kinematics of the two agents.
+We developed a solver for this game, scripted in Matlab, that calculates the motion of both agents and their behavioral states and consequently finds the payoff, the ultimate score for a game model \cite{Isaacs:1965uz}, as the number of strikes before capture.
 
-Each recording was digitized to collect three-dimensional midpoints on both the predator zebrafish and larval zebrafish at key moments through the predator-prey interaction. Throughout the recording, the predator zebrafish attempts to capture the larval zebrafish multiple times. For each of these capture attempts, the predator fish approaches and strikes the larval zebrafish, while the larva will attempt to escape with an escape response. The midpoint position of the predator fish and larval fish were acquired for when the predator fish starts to approach the larval zebrafish, when the predator fish started and ended suction feeding, and when the larval zebrafish initiated an escape response.
+A predator begins the game in the Tracking state, where it moves at an approach speed $U$ with a direction that is always headed toward the prey, with perfect information about the prey's position (Fig. \ref{fig_setup}c). 
+In this state, the predator is capable of tracking the motion of the prey after a delay $\lambda$.
+The predator transitions into the Striking state when the prey is within a value for strike distance ($s$), which is determined \textit{a-priori} by the generation of a random value (using the `random' function in Matlab) from the log-normal probability-density function (Eqn. \ref{eqn_lognorm}) for measured values of $s$.
+The capture probability for a particular strike depends on the distance between the agents in the middle of a strike, according to our measured parameter values for this relationship (Eqn. \ref{eqn_sig}).
+Our simulation uses this relationship to generate a random value from this distance-specific probability to find the range of a strike, with the prey considered captured if it is within that range.
+The game ends if the strike is successful, otherwise the predator reverts to the Tracking state after completion of the strike duration ($\tau$).
+Single values for the approach speed and predator delay were used for all simulations (Table \ref{table}), determined by trial and error and were found to approximate the mean values observed in prior studies \cite{McHenry:2005tc, Stewart:2013bha}. 
 
-\subsection{Probabilistic modeling}
-The probabilistic model simulates a virtual predator agent and prey agent engaged in a predator-prey interaction (Fig 1B). Each agent have two principal variables that change over the span of a simulation: position and orientation (in two dimensions). Each agent transitions between two states, which will dictate how the agent’s state variables change. How the agents transition between states and how the principal variables evolve depends on the thirteen experimentally derived parameters of the model. Five of the thirteen parameters are defined by lognormal probability distributions. Different sets of parameters values and probability distributions were used to simulate predator-prey interactions between adult and larval zebrafish, and juvenile and larval zebrafish.
+The game model simultaneously determines the actions of the prey fish (Fig. \ref{fig_setup}c).
+The behavior of prey was modeled with Resting and Escaping states because we presently found that larval zebrafish generally remain still between periods of rapid swimming initiated by an escape response, as reported previously \cite{Stewart:2013bha;Stewart:2014cma}. 
+The prey begins each game in the Resting state, where is it motionless at a distance equal to the aquarium diameter ($\oslash = \SI{8.5}{\cm}$) at a random radial position with respect to the predator's heading.
+After a latency ($\chi$) \cite{Nair:2015gk}, the prey transitions into the Escaping state when the predator moves within the reaction distance ($l$).
+The prey follows a straight path in the direction of the escape angle ($\theta$) during the Escaping state, and varies in speed according to a saw-toothed function of time, where the escape speed ($u$) is achieved at 20\% of the escape duration $\eta$).
+The reaction distance, escape angle, and escape duration are determined by random-numbers with probability density functions matching experimental measurements, similar to the actions of the predator.
+The escape angle is defined with respect to the prey's frame of reference, with $\theta =  \SI{0}{\degree}$ corresponding to straight-ahead motion and $\theta = \SI{90}{\degree}$ corresponding to a perpendicular turn.
+The escape direction ($\upsilon$) is the probability that this angle is directed away from the predator and was previously measured \cite{Stewart:2014cma}.
 
-Parameters that are defined by a probability distribution takes on a random value every time the model evaluates the parameter in the simulation. The value for these specific parameters is randomly sampled from its associated probability distribution. Though these probability distribution parameters are being sampled from a boundless distribution, the model enforces upper and lower bounds of valid random values. These bounds are determined by the minimum and maximum values observed experimentally. 
+This model abstracts many aspects of the complexity of predator-prey interactions in the interest of establishing a predictive first-order approximation.
+It assumes that the dynamics may be reasonably approximated with two-dimensional motion and does not bound that motion by the dimensions of an aquarium. 
+Simulations were stopped if prey successfully escaped on 20 occasions, which reflected the observed maximum and guarded against an errant simulations from executing for an infinite duration.
+The model's probabilistic approach considers the effects of biomechanics and neurophysiology without articulating those elements.
+For example, capture success is treated as a distance-specific probability (Eqn. \ref{eqn_sig}) that does not parse the effects of a predator's suction-feeding hydrodynamics, nor the propulsive forces generated by an escaping prey.
+The model was tested by comparing the results of simulations against our experimental findings using a Kolmogorov-Smirnov test (CITE). 
+This test was chosen over a Kruskal-Wallis test because of its emphasis on the shape of the distribution, rather than the median value.  
+The number of successful prey escapes before capture for all experiments were compared to the same metric for 1,000 simulations.  
 
-\begin{table}[!h]
-\scriptsize
-\caption{Table of parameters: Adult-larval zebrafish interactions}%%%Table caption goes here
-\label{table_example}
-\begin{tabular}{lllll}%%%The number of columns has to be defined here
-\hline
-Variable name &Type &Sample size &value(s) &units \\
-\hline
-\textit{Predator:}& & & & \\
-Strike distance &Probability distribution &77 &$\mu$ = -4.97996, $\sigma$ = 0.447846 &meters \\
-Strike duration &Probability distribution &77 &$\mu$ = -3.16594, $\sigma$ = 0.330798 &seconds \\
-Approach speed &Constant &N/A &0.13 &meters/second \\
-Predator delay &Constant &N/A &0.01 &Seconds \\
-Capture probability &Probability function &77 &\textit{r} = 573.8207, \textit{$x_0$} = 0.0052  &probability \\
-\textit{Prey:}& & & & \\
-Escape distance &Probability distribution &77 &$\mu$ = -4.54594, $\sigma$ = 0.587484 &meters \\
-Escape angle &Probability distribution &206 &$\mu$ = 0.1442, $\sigma$ = 0.449289 &radian \\
-Escape duration &Probability distribution &77 &$\mu$ = -1.36936, $\sigma$ = 0.552332 &seconds \\
-Escape direction &Constant &206 &0.6959 &Probability \\
-Escape latency &Constant &15 &0.008 &seconds \\
-Escape speed &Constant &12 &0.4 &meters/second \\\hline
-\end{tabular}
-\end{table}%%%End of the table
+A sensitivity analysis determined which characteristics of the predator and prey behavior have the greatest effect on prey survival. 
+This was achieved by running batches of 1,000 simulations with parameters varied individually between -90\% and 100\% of their original values at increments of 10\%.
+For parameters described by a probability distribution, the log-mean $\mu$ parameter and the range of values were adjusted by these factors to create a change in the distribution's values.
+The effect of these manipulations were assessed by comparing escape probability against the experimentally-validated prediction using a Kruskal-Wallis test. 
 
-\begin{table}[!h]
-\scriptsize
-\caption{Table of parameters: Juvenille-larval zebrafish interactions}%%%Table caption goes here
-\label{table_example}
-\begin{tabular}{lllll}%%%The number of columns has to be defined here
-\hline
-Variable name &Type &Sample size &value(s) &units \\
-\hline
-\textit{Predator:}& & & & \\
-Strike distance &Probability distribution &91 &$\mu$ = -5.09997, $\sigma$ = 0.647578 &meters \\
-Strike duration &Probability distribution &91 &$\mu$ = -3.20767, $\sigma$ = 0.399461 &seconds \\
-Approach speed &Constant &N/A &0.05 &meters/second \\
-Predator delay &Constant &N/A &0.01 &Seconds \\
-Capture probability &Probability function &91 &\textit{r} = 1990.4, \textit{$x_0$} = 0.0016  &probability \\
-\textit{Prey:}& & & & \\
-Escape distance &Probability distribution &91 &$\mu$ = -4.94093, $\sigma$ = 0.581919 &meters \\
-Escape angle &Probability distribution &206 &$\mu$ = 0.1442, $\sigma$ = 0.449289 &radian \\
-Escape duration &Probability distribution &91 &$\mu$ = -1.16678, $\sigma$ = 0.523393 &seconds \\
-Escape direction &Constant &206 &0.6959 &Probability \\
-Escape latency &Constant &15 &0.008 &seconds \\
-Escape speed &Constant &12 &0.4 &meters/second \\\hline
 
-\end{tabular}
-\end{table}%%%End of the table
+\section{Results} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Most parameters for the model were derived from the digitized data. Most constant parameters were averaged values derived from the digitized data of the live predator-prey interactions. Escape direction and angle were derived from data from an unpublished study. Escape latency was determined in another study as well (Nair 2015). Probability distributions for parameters were derived using the MATLAB distribution fitting application in the statistics toolbox (MATLAB etc.). All experimental measurements for each parameter were pooled together and fitted with a lognormal probability distribution (Eq. 2.1).
 
-\begin{align}\label{1.1} %%% Equation lognormal distribution
-\begin{split}
-P(x) = \frac{1}{x\sigma \sqrt{2 \pi}} e^-{\frac{(ln(x)-\mu)^2}{2\sigma ^2}}
-\end{split}
-\end{align}
+Data collected from live predator prey experiments alone could not discern performance differences between locomotion and sensing. Live predator-prey interactions between an adult (9+ months old) and larval (5 days post fertilization) zebrafish and between a juvenile (2-3 months old) and larval zebrafish were recorded and analyzed. For the live experiments, a suite of variables pertaining to locomotion and sensing for the prey (larval zebrafish) and the predator (adult or juvenile zebrafish) were collected from the predator-prey recordings (Table 2.1). Differences between successful escapes and failed escapes in each  prey or predator parameter were insignificant (Mann-Whitney U test: P > 0.05, N = see Table 1). This suggested that neither locomotion or sensing had an significant impact on whether a prey escape attempt was successful or not. This seemed unreasonable since it well known both sensory and motor systems are important for prey survival (CITE). We suspect this discrepancy emerged from the fact that the behavior of predator zebrafish and larval zebrafish were dependent on each other. This led to a coupled system of behavior where there were not strict measurable controls. Therefore, we decided to computationally model the observed predator-prey interactions, allowing the ability to control for various aspects of the predatory encounter.
 
-The capture probability function was derived using experimental data. For each capture attempt observed by the predator fish in the live predator-prey experiment, it was determined whether the capture was success or failure and what the distance was between the predator fish and larval zebrafish midway through suction feeding. The successful capture data and the failed capture data were independently binned by its associated distance value. Each success and fail bin that matched up in its distance range was used to create a capture success probability (success count/(success count + fail count)). Then a sigmoid function was fitted to the series of capture success probabilities (Eq. 2.2).
+The probabilistic model confidently mimicked the live predator-prey experiments. The probabilistic model was able to simulate predator-prey interactions between adult and larval zebrafish and between juvenile and larval zebrafish. For the model to replicate these two different predator-prey interactions, two different parameters sets were derived from the recordings of adult-larval zebrafish interactions and juvenile-larval zebrafish interactions (Table 2.1). Juvenile and adult zebrafish were morphologically similar, but were different in scale. Adult zebrafish were significantly longer in body length and had a larger gape width than juvenile zebrafish (P << 0.001, One-way ANOVA, N = 19, Supp. Fig). Reaction distance and escape duration of the larval zebrafish were significantly different between the adult-larval zebrafish interactions and juvenile-larval zebrafish interactions ( P < 0.05, Two-sampled Kolmogorov-Smirnov test). The capture probability of predator fish between juvenile and adult zebrafish also varied between parameter sets as well (Supp. Fig). In the model, both the predator and prey agent behaved similarly to their biological counterparts (Fig. 2A). This was true for both the adult-larval parameter set and juvenile-larval parameter set. To quantitatively compare the model and the live predator-prey experiments, we collected the number of successful escapes larval zebrafish and the virtual prey agent made before being captured and compared for significant differences. The comparison revealed that the data from the live experiments and the model were quantitatively similar for adult-larval interactions and juvenile-larval interactions (Kolmogorov-Smirnov test: P >> 0.05, N = 73 for adult-larval experiments and 91 for juvenile-larval interactions, N = 1000 for each). Given the probabilistic model can replicate our predator-prey experiments, we conducted the rest of our analysis using the probabilistic model. Furthermore, many of our results observed with the adult-larval zebrafish parameter set were mirrored by the juvenile-larval zebrafish parameter set. Therefore, the results in this paper will focus on the results of the adult-larval zebrafish parameter set.
 
-\begin{align}\label{1.2} %%%Equation for sigmoid function
-\begin{split}
-Capture\,probability = \frac{1}{1+e^{-r(distance-x_0)}}
-\end{split}
-\end{align}
+A sensitivity analysis of the prey parameters revealed that escape speed and reaction distance were the most impactful parameters for prey survival. We conducted a sensitivity analysis where we modulated each prey parameter. For each parameter, the mean value of the parameter was changed by increments of 10\%. For each incremental change in the parameter, we observed a change in the escape probability, the chance a prey agent will escape for any given predatory strike (Fig. 3). Changes in escape duration, escape direction, and escape angle led to minimal changes in escape probability. However, reaction distance and escape speed had much more substantial effect on escape probability compared to the rest of the prey parameters. By increasing the mean value of the reaction distance, escape probability increased significantly. However, decreasing the mean value of the reaction distance created greater, significant decreases to the escape probability. Modulating escape speed had similar effects. However, increasing escape speed did not lead to a significant increase in escape probability and significant decreases to escape probability only occurred when escape speed was reduced by 50\% or more of its original value.
 
-Some parameter values were derived by matching simulation results to experimental results. Predator delay was a parameter that could not be measured from our recordings and approach speed of the predator fish was quite variable. Therefore, values for predator delay and approach speed were determined post hoc. Simulations with varying values of predator delay and predator speed were ran and compared to experimental results (based off the methodology in the validation section). The parameter set values that yielded the greatest similarity (determined by a Kolmogorov-Smirnov test) was used for predator delay and speed.
+There were compensatory effects for escape probability between escape speed and reaction distance. Since escape speed and reaction distance were the two parameters that had the greatest impact on escape probability of the prey agent, we conducted a two-dimensional sensitivity analysis where reaction distance and escape speed were both incrementally changed (Fig. 5A). By increasing and decreasing both parameters simultaneously, escape probability increased and decreased respectively. However, escape speed and reaction distance affected each other in different manners (Fig. 5B,C). Reflecting the patterns seen in the one-dimensional sensitivity analysis, reaction distance modulated the patterns of escape speed has on escape probability (Fig. 5B). By keeping escape speed constant, increasing reaction distance slightly increased the overall escape probability. However, decreasing reaction distance while escape speed was held constant created large, significant decreases to escape probability. Decreasing escape speed was the only way to observe significant changes in escape probability when reaction distance was held constant (Fig. 5C).  Increasing escape speed while the reaction distance was held constant did not substantially increase escape probability. 
 
-The probabilistic model initializes every simulation randomly. The predator agent’s starting position is always at the origin of the two-dimensional virtual arena. Conversely, the prey agent’s starting position is randomly place within 8.5 cm of the origin. This is to force the starting conditions to be similar to the live predator-prey experiments. However, once the simulation has started, the predator and prey agents are not confined to a limited space like in the live predator-prey experiments. The prey agent\textsc{\char39}s orientation is randomized at the beginning of the simulation, while the predator agent always starts facing the prey agent.
-
-The predator agent transitions between two states: tracking state and striking state. The simulation starts with the predator agent in the tracking state. In this state, the predator agent is simply moving closer to the prey agent, with a speed equal to the approach speed parameter. The predator agent will always take the shortest path to the prey agent. If the prey agent is moving, the predator agent will update its orientation to be always facing the prey agent. How often the predator agent updates its orientation depends on the predator delay parameter. The predator delay parameter represents the sensory and motor time delays present in the predator when reacting to a moving prey. The predator agent will transition into the striking state if it reaches a threshold distance between itself and the prey agent. The value of the threshold distance is determined by the strike distance parameter. Since strike distance is a probability distribution parameter, every time a predator agent is in the tracking state, the escape distance parameters will have a different random value based on the associated probability distribution. Once in the striking state, the predator agent will not adjust its course and swims straight for a fixed amount of time. In this state, the predator attempts to capture the prey agent. The amount of time the predator stays in the striking state is determined by the strike duration parameter, another probability distribution parameter. Once the striking state is finished, if the simulation isn’t over, the predator agent will transition back into the tracking state.
-
-The prey agent also transitions between two states throughout the simulation: waiting state and escaping state. The prey agent starts the simulation in the waiting state. In the waiting state, the prey agent is idle and doesn’t move, mimcking larval zebrafish behavior. The prey agent will transition to the escaping state when the predator comes within a certain threshold distance determined by the escape distance parameter, another probability distribution parameter. Once the escape distance is met, the prey agent will transition into the escaping state where it starts locomoting with a speed determined by the escape speed parameter. The escaping state lasts for a certain duration depending on the escape duration parameter, a probability distribution parameter. For a short period at the start of the state, the prey agent will not move; this represents the delay in neural activation before actual center of mass movement. The length of the delay period is determined by the escape latency parameter. Once passed the escape latency period, the prey agent must pick which side of of its body it decides to escape towards. Previous studies show larval zebrafish have a bimodal escape response, where larval zebrafish are more likely to escape towards the side of their body facing away from the predator (Bill paper and unpublished study). Escape direction parameters is the probability of larval zebrafish escaping towards the away-facing side of their body. The angle at which they escape with on the given side of their body is determined by a probability distribution parameter, escape angle. The prey agent escapes following a straight line path, using a triangle shaped velocity curve. Throughout the escaping state, the velocity of the prey agent follows a custom triangle pulse that peaks 20\% into the duration of the escaping state. The magnitude of the the pulse is determined by the escape speed parameter. Once the escaping state is finished, the prey transitions back to the waiting state.
-
-The simulation ends when the prey agent is captured or when the prey has escaped twenty times. One simulation termination condition is when the predator agent is able to capture the prey agent during the strike state. Half way during the striking state, the simulation evaluates whether the predator agent has successfully capture the prey agent by measuring the distance between agents halfway through the strike state and evaluating the capture probability function with this distance to get the probability of a successful capture. The model will randomly generate a number between zero and one and compare it to the resultant success probability. If the randomly generated number is equal to or lower than the resultant success probability, the prey is captured and the simulation ends. The model has a built-in hard cutoff that ends the simulation if the prey escape twenty times. This ensures simulations do not run indefinitely.
-
-\subsection{Model validation}
-Simulation results and experimental results were compared using a Kolmogorov–Smirnov test. This test was chosen over a kruskal-wallis test because the Kolmogorov-Smirnov test emphasizes differences in the shape of the distribution, rather than differences in the median. We believed this was a better approach to compare distributions in our study. The number of successful prey escapes before capture for each experiment and for a thousand simulations of the model were compiled into two groups, experimental and simulation, and were compared using a Kolmogorov-Smirnov test.
-
-\subsection{Sensitivity analysis}
-The model’s parameter set was systematically varied to yield different escape probabilities for the prey agent. For parameters of the prey agent, the mean of the parameter (or the value itself if the parameter is a constant) was varied between -90\% and 100\% of its original value by increments of 10\%. For parameters that have an associated probability distribution, the $\mu$ parameter of the lognormal distributions are adjusted to create a change in distribution’s mean. The upper and lower sampling bounds are also shifted according. A thousand simulations were ran for each incremental change in the mean of a given parameter and  the number of successful escapes before capture was collected  for each simulation. Comparisons between increment changes in parameters were made using a Kruskal-Wallis test. Data for each increment change in the mean was represented as an escape probability. This was calculated by taking the the total sum of successful escapes and dividing it by the total attempted escapes.
-
-\section{Results}
-Data collected from live predator prey experiments alone could not discern performance differences between locomotion and sensing. For the live experiments, a suite of variables pertaining to locomotion and sensing for the prey (larval zebrafish) were collected from the predator-prey recordings (Table 2.1-2). Differences between successful escapes and failed escapes in each parameter were insignificant (Mann-Whitney U test: P > 0.05, N = 77 with adult zebrafish, 91 with juvenille zebrafish). Furthermore, no predator zebrafish (adult and juvenile) collected parameter was indicative whether a larval zebrafish could escape a predatory strike (Mann-Whitney U test: P > 0.05, N = 77, 91). This suggests that neither locomotion or sensing had an significant impact on whether a prey escape attempt was successful or not. This seemed unreasonable since it well known both sensory and motor systems are important for prey survival (CITE). We suspect this discrepancy emerges from the fact that the behavior of predator zebrafish and larval zebrafish are modified by each other. This leads to a coupled system of behavior where there are not strict measurable controls. Therefore, we decided to computationally model the observed predator-prey interactions, allowing the ability to control for various aspects of the predatory encounter.
-
-The probabilistic model confidently mimics the live predator-prey experiments. The probabilistic model uses experimentally derived parameters to simulate a predator-prey interaction between a predator agent and a prey agent. Both of the agents behave similarly to their biological counterparts (Fig. 2A). To quantitatively compare the model and the predator-prey experiments, we collected the number of successful escapes  larval zebrafish and the prey agent make before being captured and compared for significant differences. The comparison revealed that the two datasets are quantitatively similar (Kolmogorov-Smirnov test: P >> 0.05, N = 77 for experiments,  N = 1000 for simulations). A similar result is seen with the juvenile-larval zebrafish datasets (Kolmogorov-Smirnov test: P >> 0.05, N = 91 for experiments,  N = 1000 for simulations).Given the probabilistic model can replicate our predator-prey experiments, we conducted the rest of our analysis just using the probabilistic model. Furthermore, many of our results observed with yoru adult/larval zebrafish parameter set were mirrored by the juvenile/larval zebrafish parameter set. Therefore, this paper will focus on the results of the adult/larval zebrafish probabilistic model.
-
-A sensitivity analysis of the prey parameters revealed that escape speed and escape distance were the most impactful parameters for prey survival. we conducted a sensitivity analysis where we modulated each prey parameter. For each parameter, the mean value of the parameter was changed by increments of 10\%. For each incremental change in the parameter, we observed a change in the escape probability, the chance a prey agent will escape for any given predatory strike (Fig. 3). Changes in escape duration, escape direction, and escape angle lead to minimal changes in escape probability. However, escape distance and escape speed had much more substantial effects on escape probability compared to the rest of the prey parameters. By increasing the mean value of the escape distance, escape probability increases significantly. However, decreasing the mean value of the escape distance creates greater, significant decreases to escape probability. Increasing escape speed did not significantly increase in escape probability. Significant decreases to escape probability only occurred when escape speed was reduced by 50\% or more of its original value.
-
-There are compensatory effects for escape probability between escape speed and escape distance. Since escape speed and escape distance were the two parameters that had the greatest impact on escape probability of the prey agent, we conducted a two-dimensional sensitivity analysis where escape distance and escape speed were both incrementally changed (Fig. 5A). By increasing and decreasing both parameters, escape probability increases and decreases respectively. However, escape speed and escape distance affect each other in different manners (Fig. 5B,C). Reflecting the patterns seen in the one-dimensional sensitivity analysis, escape distance can modulate the patterns of escape speed has on escape probability (Fig. 5B). By keeping escape speed constant, increasing escape distance can slightly increase the overall escape probability. However, similar to the one-dimensional analysis, decreasing escape distance while escape speed is constant can create large, significant decreases to escape probability. Also similar to the one-dimensional analysis, decreasing escape speed is the onyl way to observed significant changes in escape probability when escape distance is held constant (Fig. 5C).  While escape distance is held constant, increasing escape speed did not substantially increase escape probability. This exemplifies the "binary" effect escape speed had on escape probability .
 
 \section{Discussion}
 
 
-\section*{Sample equations}
-
-Sample equations.
-
-%%% Numbered equation
-\begin{align}\label{1.1}
-\begin{split}
-\frac{\partial u(t,x)}{\partial t} &= Au(t,x) \left(1-\frac{u(t,x)}{K}\right)-B\frac{u(t-\tau,x) w(t,x)}{1+Eu(t-\tau,x)},\\
-\frac{\partial w(t,x)}{\partial t} &=\delta \frac{\partial^2w(t,x)}{\partial x^2}-Cw(t,x)+D\frac{u(t-\tau,x)w(t,x)}{1+Eu(t-\tau,x)},
-\end{split}
-\end{align}
-
-\begin{align}\label{1.2}
-\begin{split}
-\frac{dU}{dt} &=\alpha U(t)(\gamma -U(t))-\frac{U(t-\tau)W(t)}{1+U(t-\tau)},\\
-\frac{dW}{dt} &=-W(t)+\beta\frac{U(t-\tau)W(t)}{1+U(t-\tau)}.
-\end{split}
-\end{align}
-
-%%%% Unnumbered equation
-\begin{eqnarray}
-\frac{\partial(F_1,F_2)}{\partial(c,\omega)}_{(c_0,\omega_0)} = \left|
-\begin{array}{ll}
-\frac{\partial F_1}{\partial c} &\frac{\partial F_1}{\partial \omega} \\\noalign{\vskip3pt}
-\frac{\partial F_2}{\partial c}&\frac{\partial F_2}{\partial \omega}
-\end{array}\right|_{(c_0,\omega_0)}\notag\\
-=-4c_0q\omega_0 -4c_0\omega_0p^2 =-4c_0\omega_0(q+p^2)>0.
-\end{eqnarray}
-
-%\end{fmtext}
 
 
 
 \section*{Data accessibility}
 
+
 \section*{Authors' contributions}
+The study was designed in collaboration between AN and MJM.
+AN and CN performed all experiments and kinematic analysis.
+The game model was created by AN, with guidance from MJM. 
+The manuscript was written collaboratively by AN and MJM.
 
 \section*{Competing interests}
 We declare we have no competing interests.
@@ -252,44 +200,66 @@ Insert the Acknowledgment text here.
 \section*{Acknowledgments}
 Insert the Acknowledgment text here.
 
+%\end{doublespace}
 
 %%%%%%%%%% Insert bibliography here %%%%%%%%%%%%%%
 %\section*{References}
 
+\linespread{1}\selectfont %Single spacing
+
 \bibliography{ref}
 \bibliographystyle{prsb}   %References the PRSB style file
 
+\pagebreak
+
+
+
 \section*{Figures \& Tables}
 
-The output for figure is:
+% AN: How can the mu values for those dimensions given in meters be correct?  Does mu have different dimensions?  Should the units actually be millimeters?
 
-\begin{figure}[!h]
-%\centering\includegraphics[width=2.5in]{xxxxxx.eps}
-%%% where xxxxxx name represents "figurename.eps"
-\caption{Insert figure caption here}
-\label{fig_sim}
-\end{figure}
-
-\vspace*{-10pt}
-
-\noindent The output for table is:
+\linespread{1.3}\selectfont %Single spacing
 
 \begin{table}[!h]
-\caption{An Example of a Table}%%%Table caption goes here
-\label{table_example}
-\begin{tabular}{llll}%%%The number of columns has to be defined here
+\scriptsize
+\caption{Behavioral parameters and probability distributions}%%%Table caption goes here
+\begin{tabular}{lllll}%%%The number of columns has to be defined here
 \hline
-date &Dutch policy &date &European policy \\
+Variable &State &Adult predator & Juvenile predator\\
 \hline
-1988 &Memorandum Prevention &1985 &European Directive (85/339) \\
-1991--1997 &{\bf Packaging Covenant I} & & \\
-1994 &Law Environmental Management &1994 &European Directive (94/62) \\
-1997 &Agreement Packaging and Packaging Waste & & \\
-1998--2002 &{\bf Packaging Covenant II} & & \\
-2003--2005 &{\bf Packaging Covenant III} & & \\
-2006--2007 &{\bf Decree on Packaging and paper} & & \\\hline
+\textit{Predator}& & & & \\
+Approach speed, $U$ ($\SI{}{\m\s} ^{-1}$) &T &$U = 0.13$ & $U = 0.05$ \\
+Predator delay, $\lambda$ (ms) &T &$\lambda = 10$ &$\lambda = 10$ \\
+Strike distance, $s$ (m) &T $\to$ S &$\mu_d$ = -4.980, $\sigma_d$ = 0.448 (\textit{N} = 51) & $\mu_d$ = -5.100, $\sigma_d$ = 0.648 (\textit{N} = 103)\\
+Strike duration, $\tau$ (s) &S &$\mu_{\tau}$ = -3.166, $\sigma_{\tau}$ = 0.331 (\textit{N} = 53) & $\mu_{\tau}$ = -3.208, $\sigma_{\tau}$ = 0.399 (\textit{N} = 54) \\
+Capture probability, $C$ &S &\textit{r} = 573.8, \textit{$d_0$} = 0.0052  (\textit{N} = 77) &\textit{r} = 1990, \textit{$d_0$} = 0.0016  (\textit{N} = 91) \\ \\
+%%
+\textit{Prey}& & & & \\
+Reaction distance, $l$ (m) &R $\to$ E &$\mu_l$ = -4.546, $\sigma_l$ = 0.587 (\textit{N} = 73) &$\mu_l$ = -4.941, $\sigma_l$ = 0.582 (\textit{N} = 91) \\
+Escape angle, $\theta$ (rad) &E  &$\mu_{\theta}$ = 0.144, $\sigma_{\theta}$ = 0.449 (\textit{N} = 206) &$\mu_{\theta}$ = 0.144, $\sigma_{\theta}$ = 0.449 (\textit{N} = 206) \\
+Escape duration, $\eta$ (s) &E &$\mu_{\eta}$ = -1.369, $\sigma_{\eta}$ = 0.552 (\textit{N} = 62) &$\mu_{\eta}$ = -1.167, $\sigma_{\eta}$ = 0.5234 (\textit{N} = 91) \\
+Escape direction, $\upsilon$ &E &$\upsilon=0.696$ (\textit{N} = 206) &$\upsilon=0.696$ (\textit{N} = 206) \\
+Escape latency, $\chi$ (ms) &E &$\chi = 8$ (\textit{N} = 15) & $\chi = 8$ (\textit{N} = 15)\\
+Escape speed, $u$ ($\SI{}{\m\s} ^{-1}$) &E  &$u = 0.4$ (\textit{N} = 12) &$u = 0.4$ (\textit{N} = 12) \\\hline
+\label{table}
 \end{tabular}
+
+T, Tracking; S, Striking; R, Resting; E, Escaping; $\mu$, log mean; $\sigma$, log standard deviation; $r$, decay rate; $d_0$, decay distance.
 \end{table}%%%End of the table
+
+\pagebreak
+
+\linespread{1}\selectfont %Single spacing
+
+%The output for figure is:
+
+\begin{figure}[!h]
+\centering\includegraphics[width=5.5in]{fig1}
+\caption{Experimental and mathematical techniques for studying predator-prey interactions. (\textit{a}) Three high-speed video cameras recorded video of one larval prey and one adult predator fish that were placed in a hemispherical aquarium. (\textit{b}) A representative video frame (cropped to the margin of the aquarium) shows an adult in close proximity to the prey. In the inset, white triangles denote the locations of morphological landmarks used to describe the position of the two fish. (\textit{c}) A flow chart illustrates the major components of the game model used to simulate the interactions between predators and prey (see Table \ref{table} for symbol definitions and parameter values).}
+\label{fig_setup}
+\end{figure}
+
+\pagebreak
 
 
 \end{document}
