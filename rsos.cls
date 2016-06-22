@@ -64,6 +64,9 @@
 %% Packages added by Matt and Arjun:
 \usepackage{lineno}
 \usepackage{siunitx}
+\usepackage[colorinlistoftodos,textsize=small,textwidth=3.75cm,color=yellow]{todonotes}
+%\usepackage{subcaption}
+%\usepackage{caption}
 
 \ifCapsgreek
 \AtBeginDocument{\let\Gamma\varGamma

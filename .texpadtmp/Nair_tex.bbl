@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Stewart:2014cma}
+Stewart, W.~J., Nair, A., Jiang, H. \& McHenry, M.~J., 2014 {Prey fish escape
+  by sensing the bow wave of a predator}.
+\newblock \emph{J. Exp. Biol.} \textbf{217}, 4328--4336.
+
+\bibitem{Soto:2015cj}
+Soto, A., Stewart, W.~J. \& McHenry, M.~J., 2015 {When optimal strategy matters
+  to prey fish}.
+\newblock \emph{Int. Comp. Biol.} \textbf{55}, 110--120.
+\newblock (\doi{doi:10.1093/icb/icv027}).
+
+\bibitem{Westerfield:UXiBrEuA}
+Westerfield, M., 1995 \emph{{The Zebrafish Book: A Guide for the Laboratory Use
+  of Zebrafish, (\textit{Brachydanio rerio}).}}
+\newblock Eugene, OR: University of Oregon Press.
+
+\bibitem{Hedrick:2008wz}
+Hedrick, T.~L., 2008 {Software techniques for two- and three-dimensional
+  kinematic measurements of biological and biomimetic systems}.
+\newblock \emph{Bioinspir. Biomim.} \textbf{3}, 034001.
+
+\bibitem{Stewart:2010ig}
+Stewart, W.~J. \& McHenry, M.~J., 2010 {Sensing the strike of a predator fish
+  depends on the specific gravity of a prey fish}.
+\newblock \emph{J. Exp. Biol.} \textbf{213}, 3769--3777.
+
+\bibitem{Stewart:2013bha}
+Stewart, W.~J., Cardenas, G.~S. \& McHenry, M.~J., 2013 {Zebrafish larvae evade
+  predators by sensing water flow}.
+\newblock \emph{J. Exp. Biol.} \textbf{216}, 388--398.
+
+\bibitem{Isaacs:1965uz}
+Isaacs, R., 1965 {Differential Games. A Mathematical Theory with Applications
+  to Warfare and Pursuit, Control and Optimization}.
+\newblock John Wiley {\&} Sons, Inc., New York.
+
+\bibitem{McHenry:2005tc}
+McHenry, M.~J. \& Lauder, G.~V., 2005 {The mechanical scaling of coasting in
+  zebrafish (\textit{Danio rerio}).}
+\newblock \emph{J. Exp. Biol.} \textbf{208}, 2289--2301.
+
+\bibitem{Nair:2015gk}
+Nair, A., Azatian, G. \& McHenry, M.~J., 2015 {The kinematics of directional
+  control in the fast start of zebrafish larvae}.
+\newblock \emph{J. Exp. Biol.} \textbf{218}, 3996--4004.
+
+\bibitem{Weihs:1984tb}
+Weihs, D. \& Webb, P., 1984 {Optimal avoidance and evasion tactics in
+  predator-prey interactions}.
+\newblock \emph{J. Theor. Biol.} \textbf{106}, 189--206.
+
+\end{thebibliography}
