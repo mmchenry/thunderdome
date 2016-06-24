@@ -277,7 +277,6 @@ However, the same is unlikely to hold true for faster predators.
 Although escape direction matters little in instances when the predators is more than an order-of-magnitude faster than the prey, escape direction conforms to an optimal value in instances with the predator is only slightly faster than the prey \cite{Weihs:1984tb}.
 We therefore would anticipate different results for faster predators than the adult zebrafish that we studied.
 
-%Test
 
 \section*{Data accessibility}
 
@@ -369,8 +368,11 @@ In the inset, white triangles denote the locations of morphological landmarks us
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=5.5in]{fig_PDFs}
-\caption{Trajectories of measured and simulated predator and prey. 
-(\textit{a}) Text fo caption a.}
+\caption{Descriptive statistics of swimming kinematics. 
+(\textit{a-e}) The probability density measurements (circles) and function (Eqn. \ref{eqn_lognorm}) fit for experiments where the predator was a juvenile (purple) or adult (green) predator, which were significantly different, except for escape angle (\textit{a}), shown in gray. 
+Parameters were measured from the kinematics of prey (\textit{a-c}) and predators (\textit{d-e}).
+(\textit{f}) The capture probability was examined as it varies with distance between the predator and prey (Eqn. \ref{eqn_sig}).  
+}
 \label{fig_PDF}
 \end{figure}
 
@@ -380,17 +382,24 @@ In the inset, white triangles denote the locations of morphological landmarks us
 
 \begin{figure}[!h]
 \centering
-	\includegraphics[width=5.5in]{fig_trajectories}
-\caption{Comparison between measurements and model predictions. 
-(\textit{a}) Text fo caption a.}
+	\includegraphics[width=4.5in]{fig_trajectories}
+\caption{Comparison between experimental measurements and mathematical modeling. 
+(\textit{a}) Trajectories of predator and prey from a representative experiment (left) and simulation (right).
+(\textit{b}) Ethograms for these trajectories illustrate the temporal changes in the predator's swimming and strike (left), which are respectively modeled by the T and S (Fig. \ref{fig_setup}\textit{b}) modes (right). 
+The prey's behavior while motionless and during escape (left), where modeled with the R and E modes of the model (right).
+For both ethograms, the distance between predator and prey are shown and particular moments in the trajectories are highlighted with vertical gray lines.
+(\textit{c}) The probability that a prey survives over a particular number of strikes is shown for when the predator was and adult (above) and juvenile (below) for experiments and model simulations.   
+}
 \label{fig_traj}
 \end{figure}
 
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=5.5in]{fig_sensitivity}
-\caption{Trajectories of measured and simulated predator and prey. 
-(\textit{a}) Text fo caption a.}
+\caption{Sensitivity analysis of game model to examine the effects of parameter variation on escape probability. 
+(\textit{a}) Varying the \hl{log-mean value [MJM:true?]} for the distribution of individual parameters (see Table \ref{table} for parameter definitions and values), with each point representing the result of 1000 simulations. 
+(\textit{b}) Variation in escape probability was examined with respect to both escape speed and response distance the same simulation results are shown with respect to changes in escape speed (\textit{c}) and response distance (\textit{d}).
+}
 \label{fig_sense}
 \end{figure}
 
