@@ -312,6 +312,7 @@ However, the same is unlikely to hold true for faster predators.
 Although escape angle matters little in instances when the predators is more than an order-of-magnitude faster than the prey, escape direction conforms to an optimal value in instances with the predator is only slightly faster than the prey \cite{Weihs:1984tb}.
 We therefore would anticipate different results for faster predators than the adult zebrafish that we studied.
 
+<<<<<<< HEAD
 Our model has the potential to provide broad implications for the biology of fishes and for predator-prey interactions in general.
 Our game model can abstractly model many different predator-prey interactions amongst fish and other animals. 
 For many interactions between a predator and "burst movement" prey, such as larval zebrafish, our model can describe a first order approximation the interaction with a simple change in parameter values.
@@ -323,6 +324,8 @@ Two probability distributions can be related to the Roaming state, a roam angle 
 
 
 %Test
+=======
+>>>>>>> 39c0d56e36236c1c2b0c22f573b776697f7dfcd9
 
 \section*{Data accessibility}
 
