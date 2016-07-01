@@ -1,6 +1,6 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux
+The top-level auxiliary file: /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.aux
 The style file: ../prsb.bst
 Database file #1: ../ref.bib
 Repeated entry---line 84 of file ../ref.bib
@@ -9,7 +9,7 @@ Repeated entry---line 84 of file ../ref.bib
 I'm skipping whatever remains of this entry
 You've used 10 entries,
             2427 wiz_defined-function locations,
-            599 strings with 5999 characters,
+            599 strings with 5959 characters,
 and the built_in function-call counts, 3571 in all, are:
 = -- 256
 > -- 88
