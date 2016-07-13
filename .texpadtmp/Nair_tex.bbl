@@ -4,10 +4,61 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem{Alexander:BbR35qCj}
+Alexander, R.~M., 2003 \emph{{Principles of Animal Locomotion}}.
+\newblock Princeton, NJ.
+
+\bibitem{Wilson:2013fda}
+Wilson, A.~M., Lowe, J.~C., Roskilly, K., Hudson, P.~E., Golabek, K.~A. \&
+  McNutt, J.~W., 2013 {Locomotion dynamics of hunting in wild cheetahs}.
+\newblock \emph{NATURE} \textbf{498}, 185--189.
+
+\bibitem{Walker:2005vn}
+Walker, J.~A., Ghalambor, C.~K., Griset, O.~L., McKenney, D. \& Reznick, D.~N.,
+  2005 {Do faster starts increase the probability of evading predators?}
+\newblock \emph{Func. Ecol.} \textbf{19}, 808--815.
+
+\bibitem{deVries:2012tc}
+deVries, M.~S., Murphy, E. A.~K. \& Patek, S., 2012 {Strike mechanics of an
+  ambush predator: the spearing mantis shrimp}.
+\newblock \emph{J. Exp. Biol.} \textbf{215}, 4374--4384.
+
+\bibitem{Holzman:2009uu}
+Holzman, R. \& Wainwright, P.~C., 2009 {How to surprise a copepod: Strike
+  kinematics reduce hydrodynamic disturbance and increase stealth of
+  suction-feeding fish}.
+\newblock \emph{Limnol. Oceanogr.} \textbf{54}, 2201--2212.
+
+\bibitem{Dill:1972wh}
+Dill, L., 1972 {Visual mechanism determining flight distance in zebra danios
+  (\textit{Brachydanio-Rerio} Pisces)}.
+\newblock \emph{Nature} \textbf{236}, 30--32.
+
+\bibitem{Gabbiani:1999wz}
+Gabbiani, F., Krapp, H.~G. \& Laurent, G., 1999 {Computation of object approach
+  by a wide-field, motion-sensitive neuron}.
+\newblock \emph{J. Neurosci.} \textbf{19}, 1122--1141.
+
+\bibitem{Wainwright:2001ufa}
+Wainwright, P.~C., Ferry-Graham, L., Waltzek, T., Carroll, A., Hulsey, C. \&
+  Grubich, J., 2001 {Evaluating the use of ram and suction during prey capture
+  by cichlid fishes}.
+\newblock \emph{J. Exp. Biol.} \textbf{204}, 3039--3051.
+
 \bibitem{Stewart:2014cma}
 Stewart, W.~J., Nair, A., Jiang, H. \& McHenry, M.~J., 2014 {Prey fish escape
   by sensing the bow wave of a predator}.
 \newblock \emph{J. Exp. Biol.} \textbf{217}, 4328--4336.
+
+\bibitem{Ghose:2006dk}
+Ghose, K., Horiuchi, T.~K., Krishnaprasad, P.~S. \& Moss, C.~F., 2006
+  {Echolocating bats use a nearly time-optimal strategy to intercept prey}.
+\newblock \emph{PLoS biology} \textbf{4}, e108.
+
+\bibitem{Weihs:1984tb}
+Weihs, D. \& Webb, P., 1984 {Optimal avoidance and evasion tactics in
+  predator-prey interactions}.
+\newblock \emph{J. Theor. Biol.} \textbf{106}, 189--206.
 
 \bibitem{Soto:2015cj}
 Soto, A., Stewart, W.~J. \& McHenry, M.~J., 2015 {When optimal strategy matters
@@ -19,6 +70,12 @@ Soto, A., Stewart, W.~J. \& McHenry, M.~J., 2015 {When optimal strategy matters
 Westerfield, M., 1995 \emph{{The Zebrafish Book: A Guide for the Laboratory Use
   of Zebrafish, (\textit{Brachydanio rerio}).}}
 \newblock Eugene, OR: University of Oregon Press.
+
+\bibitem{Robinson:1993tu}
+Robinson, J., Schmitt, E.~A., H{\'a}rosi, F.~I., Reece, R.~J. \& Dowling,
+  J.~E., 1993 {Zebrafish ultraviolet visual pigment: absorption spectrum,
+  sequence, and localization}.
+\newblock \emph{Proc. Natl. Acad. Sci. U.S.A.} \textbf{90}, 6009--6012.
 
 \bibitem{Hedrick:2008wz}
 Hedrick, T.~L., 2008 {Software techniques for two- and three-dimensional
@@ -35,14 +92,13 @@ Stewart, W.~J., Cardenas, G.~S. \& McHenry, M.~J., 2013 {Zebrafish larvae evade
   predators by sensing water flow}.
 \newblock \emph{J. Exp. Biol.} \textbf{216}, 388--398.
 
-\bibitem{Isaacs:1965uz}
-Isaacs, R., 1965 {Differential Games. A Mathematical Theory with Applications
-  to Warfare and Pursuit, Control and Optimization}.
-\newblock John Wiley {\&} Sons, Inc., New York.
+\bibitem{MasseyJr:1951jo}
+Massey, F.~J., Jr., 1951 {The Kolmogorov-Smirnov Test for Goodness of Fit}.
+\newblock \emph{J. Am. Stat. Assoc.} \textbf{46}, 68--78.
 
 \bibitem{McHenry:2005tc}
 McHenry, M.~J. \& Lauder, G.~V., 2005 {The mechanical scaling of coasting in
-  zebrafish (\textit{Danio rerio}).}
+  zebrafish (\textit{Danio rerio})}.
 \newblock \emph{J. Exp. Biol.} \textbf{208}, 2289--2301.
 
 \bibitem{Nair:2015gk}
@@ -50,9 +106,16 @@ Nair, A., Azatian, G. \& McHenry, M.~J., 2015 {The kinematics of directional
   control in the fast start of zebrafish larvae}.
 \newblock \emph{J. Exp. Biol.} \textbf{218}, 3996--4004.
 
-\bibitem{Weihs:1984tb}
-Weihs, D. \& Webb, P., 1984 {Optimal avoidance and evasion tactics in
-  predator-prey interactions}.
-\newblock \emph{J. Theor. Biol.} \textbf{106}, 189--206.
+\bibitem{Higham:2005kg}
+Higham, T.~E., 2005 {Sucking while swimming: evaluating the effects of ram
+  speed on suction generation in bluegill sunfish Lepomis macrochirus using
+  digital particle image velocimetry}.
+\newblock \emph{J. Exp. Biol.} \textbf{208}, 2653--2660.
+
+\bibitem{Higham:2006ir}
+Higham, T.~E., 2006 {Multidimensional analysis of suction feeding performance
+  in fishes: fluid speed, acceleration, strike accuracy and the ingested volume
+  of water}.
+\newblock \emph{J. Exp. Biol.} \textbf{209}, 2713--2725.
 
 \end{thebibliography}
