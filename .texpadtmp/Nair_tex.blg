@@ -3,49 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux
 The style file: ../prsb.bst
 Database file #1: ../ref.bib
-Repeated entry---line 84 of file ../ref.bib
+Repeated entry---line 179 of file ../ref.bib
  : @article{Stewart:2013bha
  :                         ,
 I'm skipping whatever remains of this entry
-You've used 10 entries,
+Warning--missing publisher in Alexander:BbR35qCj
+You've used 25 entries,
             2427 wiz_defined-function locations,
-            599 strings with 5999 characters,
-and the built_in function-call counts, 3571 in all, are:
-= -- 256
-> -- 88
+            704 strings with 8568 characters,
+and the built_in function-call counts, 9268 in all, are:
+= -- 654
+> -- 260
 < -- 0
-+ -- 68
-- -- 22
-* -- 204
-:= -- 409
-add.period$ -- 21
-call.type$ -- 10
-change.case$ -- 9
++ -- 210
+- -- 65
+* -- 535
+:= -- 1039
+add.period$ -- 51
+call.type$ -- 25
+change.case$ -- 22
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 360
-empty$ -- 362
-format.name$ -- 29
-if$ -- 760
+cite$ -- 26
+duplicate$ -- 928
+empty$ -- 925
+format.name$ -- 83
+if$ -- 1974
 int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 100
-newline$ -- 47
-num.names$ -- 10
-pop$ -- 163
+int.to.str$ -- 25
+missing$ -- 263
+newline$ -- 107
+num.names$ -- 25
+pop$ -- 434
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 60
+skip$ -- 167
 stack$ -- 0
-substring$ -- 217
-swap$ -- 212
+substring$ -- 547
+swap$ -- 555
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 25
-width$ -- 12
-write$ -- 106
+warning$ -- 1
+while$ -- 65
+width$ -- 27
+write$ -- 254
 (There was 1 error message)
