@@ -1,98 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.aux
+The top-level auxiliary file: /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux
 The style file: ../prsb.bst
 Database file #1: ../ref.bib
-<<<<<<< HEAD
-Repeated entry---line 179 of file ../ref.bib
-=======
-Repeated entry---line 176 of file ../ref.bib
->>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
+Repeated entry---line 391 of file ../ref.bib
  : @article{Stewart:2013bha
  :                         ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 Warning--missing publisher in Alexander:BbR35qCj
-<<<<<<< HEAD
-You've used 25 entries,
+You've used 43 entries,
             2427 wiz_defined-function locations,
-            704 strings with 8568 characters,
-and the built_in function-call counts, 9268 in all, are:
-= -- 654
-> -- 260
+            825 strings with 11597 characters,
+and the built_in function-call counts, 16029 in all, are:
+= -- 1130
+> -- 464
 < -- 0
-+ -- 210
-- -- 65
-* -- 535
-:= -- 1039
-add.period$ -- 51
-call.type$ -- 25
-change.case$ -- 22
++ -- 378
+- -- 116
+* -- 927
+:= -- 1797
+add.period$ -- 87
+call.type$ -- 43
+change.case$ -- 40
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 928
-empty$ -- 925
-format.name$ -- 83
-if$ -- 1974
+cite$ -- 44
+duplicate$ -- 1612
+empty$ -- 1583
+format.name$ -- 148
+if$ -- 3407
 int.to.chr$ -- 0
-int.to.str$ -- 25
-missing$ -- 263
-newline$ -- 107
-num.names$ -- 25
-pop$ -- 434
+int.to.str$ -- 43
+missing$ -- 455
+newline$ -- 179
+num.names$ -- 43
+pop$ -- 750
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 167
+skip$ -- 291
 stack$ -- 0
-substring$ -- 547
-swap$ -- 555
-=======
-You've used 22 entries,
-            2427 wiz_defined-function locations,
-            687 strings with 8141 characters,
-and the built_in function-call counts, 8453 in all, are:
-= -- 601
-> -- 240
-< -- 0
-+ -- 196
-- -- 60
-* -- 499
-:= -- 950
-add.period$ -- 45
-call.type$ -- 22
-change.case$ -- 20
-chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 831
-empty$ -- 838
-format.name$ -- 75
-if$ -- 1797
-int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 236
-newline$ -- 95
-num.names$ -- 22
-pop$ -- 384
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 150
-stack$ -- 0
-substring$ -- 534
-swap$ -- 502
->>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
+substring$ -- 933
+swap$ -- 966
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-<<<<<<< HEAD
-while$ -- 65
-width$ -- 27
-write$ -- 254
-=======
-while$ -- 60
-width$ -- 24
-write$ -- 225
->>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
+while$ -- 113
+width$ -- 45
+write$ -- 433
 (There was 1 error message)
