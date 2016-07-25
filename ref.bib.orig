@@ -6,61 +6,6 @@ howpublished = {Princeton Univ. Press},
 address = {Princeton, NJ}
 }
 
-@article{Alpern:2011ip,
-author = {Alpern, S and Fokkink, R and Timmer, M and Casas, J},
-title = {{Ambush frequency should increase over time during optimal predator search for prey}},
-journal = {J. R. Soc. Inetrface},
-year = {2011},
-volume = {8},
-pages = {1665--1672}
-}
-
-@article{Bagnall:2014iu,
-author = {Bagnall, Martha W and McLean, D L},
-title = {{Modular organization of axial microcircuits in Zzebrafish}},
-journal = {Science},
-year = {2014},
-volume = {343},
-pages = {197--200}
-}
-
-@article{Bianco:2015gm,
-author = {Bianco, Isaac H and Engert, F},
-title = {{Visuomotor transformations underlying hunting behavior in zebrafish}},
-journal = {Curr. Biol.},
-year = {2015},
-volume = {25},
-pages = {831--846}
-}
-
-@article{Bianco:2011ca,
-author = {Bianco, I H and Kampff, A R and Engert, F},
-title = {{Prey capture behavior evoked by simple visual stimuli in larval zebrafish}},
-journal = {Front. Syst. Neurosci.},
-year = {2011},
-volume = {5},
-pages = {101}
-}
-
-@article{Burgess:2007vp,
-author = {Burgess, H A and Granato, M},
-title = {{Modulation of locomotor activity in larval zebrafish during light adaptation}},
-journal = {J. Exp. Biol.},
-year = {2007},
-volume = {210},
-pages = {2526--2539}
-}
-
-@article{Broom:2005gq,
-author = {Broom, M and Ruxton, G D},
-title = {{You can run{\textemdash}or you can hide: optimal strategies for cryptic prey against pursuit predators}},
-journal = {Behav. Ecol.},
-year = {2005},
-volume = {16},
-pages = {534--540}
-}
-
-
 @article{Carroll:2004twa,
 author = {Carroll, A and Wainwright, P C and Huskey, S and Collar, D C and Turingan, R G},
 title = {{Morphology predicts suction feeding performance in centrarchid fishes}},
@@ -68,15 +13,7 @@ journal = {J. Exp. Biol.},
 year = {2004}
 }
 
-@article{China:2014hz,
-author = {China, V and Holzman, R},
-title = {{Hydrodynamic starvation in first-feeding larval fishes}},
-journal = {Proc. Nat Acad. Sci.},
-year = {2014},
-volume = {111},
-pages = {8083--8088}
-}
-
+<<<<<<< HEAD
 @book{Cooper:2015vf,
 author = {Cooper, W E and T, Blumstein D},
 title = {{Escaping From Predators}},
@@ -85,25 +22,8 @@ year = {2015},
 address = {Cambridge}
 }
 
-@article{Domenici:2011tv,
-author = {Domenici, P and Blagburn, JM and Bacon, J P},
-title = {{Animal escapology I: theoretical issues and emerging trends in escape trajectories}},
-journal = {J. Exp. Biol.},
-year = {2011},
-volume = {214},
-pages = {2463--2473}
-}
-
-@article{Domenici:2011vl,
-author = {Domenici, P and Blagburn, JM and Bacon, J P},
-title = {{Animal escapology II: escape trajectory case studies}},
-journal = {J. Exp. Biol.},
-year = {2011},
-volume = {214},
-pages = {2474--2494}
-}
-
-
+=======
+>>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
 @article{deVries:2012tc,
 author = {deVries, M S and Murphy, E A K and Patek, SN},
 title = {{Strike mechanics of an ambush predator: the spearing mantis shrimp}},
@@ -121,34 +41,6 @@ year = {1972},
 volume = {236},
 number = {62},
 pages = {30--32}
-}
-
-@article{Dunn:2016jt,
-author = {Dunn, T W and Gebhardt, C and Naumann, E A and Riegler, C and Ahrens, M B and Engert, F and Del Bene, F},
-title = {{Neural Circuits Underlying Visually Evoked Escapes in Larval Zebrafish}},
-journal = {Neuron},
-year = {2016},
-volume = {89},
-pages = {613--628}
-}
-
-
-@article{Fuiman:1994td,
-author = {Fuiman, L A},
-title = {{The interplay of ontogeny and scaling in the interactions of fish larvae and their predators}},
-journal = {J. Fish. Biol.},
-year = {1994},
-volume = {45},
-pages = {55--79}
-}
-
-@article{Gal:2014ve,
-author = {Gal, S and Casas, J},
-title = {{Succession of hide{\textendash}seek and pursuit{\textendash}evasion at heterogeneous locations}},
-journal = {J. R. Soc. Interface},
-year = {2014},
-volume = {11},
-pages = {20140062}
 }
 
 @article{Gabbiani:1999wz,
@@ -169,16 +61,18 @@ volume = {4},
 pages = {e108}
 }
 
-@article{Heuch:2007kk,
-author = {Heuch, P A and Doall, M H and Yen, J},
-title = {{Water flow around a fish mimic attracts a parasitic and deters a planktonic copepod}},
-journal = {J.Plank. Res.},
+<<<<<<< HEAD
+@article{Burgess:2007vp,
+author = {Burgess, H A and Granato, M},
+title = {{Modulation of locomotor activity in larval zebrafish during light adaptation}},
+journal = {J. Exp. Biol.},
 year = {2007},
-volume = {29},
-pages = {i3--i16}
+volume = {210},
+pages = {2526--2539}
 }
 
-
+=======
+>>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
 @article{Hedrick:2008wz,
 author = {Hedrick, T L},
 title = {{Software techniques for two- and three-dimensional kinematic measurements of biological and biomimetic systems}},
@@ -188,15 +82,7 @@ volume = {3},
 pages = {034001}
 }
 
-@article{Hernandez:2000uma,
-author = {Hernandez, L P},
-title = {{Intraspecific scaling of feeding mechanics in an ontogenetic series of zebrafish, Danio rerio}},
-journal = {J. Exp. Biol},
-year = {2000},
-volume = {203},
-pages = {3033--3043}
-}
-
+<<<<<<< HEAD
 @article{Higham:2005iu,
 author = {Higham, T E and Malas, B and Jayne, B C and Lauder, G V},
 title = {{Constraints on starting and stopping: behavior compensates for reduced pectoral fin area during braking of the bluegill sunfish \textit{Lepomis macrochirus}}},
@@ -213,15 +99,16 @@ journal = {J. Exp. Biol},
 year = {2007},
 volume = {210},
 pages = {107--117}
-}
-
+=======
 @article{Higham:2005kg,
 author = {Higham, T E},
-title = {{Sucking while swimming: evaluating the effects of ram speed on suction generation in bluegill sunfish \textit{Lepomis macrochirus} using digital particle image velocimetry}},
+title = {{Sucking while swimming: evaluating the effects of ram speed on suction generation in bluegill sunfish Lepomis macrochirus using digital particle image velocimetry}},
 journal = {J. Exp. Biol.},
 year = {2005},
 volume = {208},
-pages = {2653--2660}
+number = {14},
+pages = {2653--2660},
+month = jul
 }
 
 @article{Higham:2006ir,
@@ -230,7 +117,10 @@ title = {{Multidimensional analysis of suction feeding performance in fishes: fl
 journal = {J. Exp. Biol.},
 year = {2006},
 volume = {209},
-pages = {2713--2725}
+number = {14},
+pages = {2713--2725},
+month = jul
+>>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
 }
 
 @article{Holzman:2009uu,
@@ -242,33 +132,6 @@ volume = {54},
 pages = {2201--2212}
 }
 
-@article{Holzman:2008jc,
-author = {Holzman, R and Collar, D C and Day, S W and Bishop, K L and Wainwright, P C},
-title = {{Scaling of suction-induced flows in bluegill: morphological and kinematic predictors for the ontogeny of feeding performance}},
-journal = {J. Exp. Biol.},
-year = {2008},
-volume = {211},
-number = {16},
-pages = {2658--2668},
-month = aug
-}
-
-@article{Howland:1974ud,
-author = {Howland, H C},
-title = {{Optimal strategies for predator avoidance: The relative importance of speed and manoeuvrability}},
-journal = {J. Theor. Biol.},
-year = {1974}
-}
-
-@article{Huang:2013vj,
-author = {Huang, K H and Ahrens, M B and Dunn, T W and Engert, F},
-title = {{Spinal projection neurons control turning behaviors in zebrafish}},
-journal = {Curr. Biol.},
-year = {2013},
-volume = {23}
-}
-
-
 @booklet{Isaacs:1965uz,
 title = {{Differential Games. A Mathematical Theory with Applications to Warfare and Pursuit, Control and Optimization}},
 author = {Isaacs, Rufus},
@@ -277,15 +140,7 @@ address = {New York},
 year = {1965}
 }
 
-@article{Li:2016cy,
-author = {Li, G and M{\"u}ller, U K and van Leeuwen, J L and Liu, H},
-title = {{Fish larvae exploit edge vortices along their dorsal and ventral fin folds to propel themselves}},
-journal = {J. R. Soc. Interface},
-year = {2016},
-volume = {13},
-pages = {20160068}
-}
-
+<<<<<<< HEAD
 @article{Liu:1999fs,
 author = {Liu, K and Fetcho, J R},
 title = {{Laser ablations reveal functional relationships of segmental hindbrain neurons in zebrafish}},
@@ -293,15 +148,17 @@ journal = {Neuron},
 year = {1999},
 volume = {23},
 pages = {325--335}
-}
-
+=======
 @article{MasseyJr:1951jo,
 author = {Massey, Jr., Frank J},
 title = {{The Kolmogorov-Smirnov Test for Goodness of Fit}},
 journal = {J. Am. Stat. Assoc.},
 year = {1951},
 volume = {46},
-pages = {68--78}
+number = {253},
+pages = {68--78},
+month = mar
+>>>>>>> 4dac6f7abb7ffc0266263bef8858e8ba6d12735a
 }
 
 @article{McHenry:2005tc,
@@ -312,26 +169,6 @@ year = {2005},
 volume = {208},
 pages = {2289--2301}
 }
-
-@article{Muller:2004hp,
-author = {M{\"u}ller, U K and van Leeuwen, J L},
-title = {{Swimming of larval zebrafish: ontogeny of body waves and implications for locomotory development}},
-journal = {J. Exp. Biol.},
-year = {2004},
-volume = {207},
-pages = {853--868}
-}
-
-@article{Muller:1982p335,
-author = {Muller, M and Osse, J and Verhagen, J},
-title = {{A Quantitative Hydrodynamical Model of Suction Feeding in Fish}},
-journal = {J. Theor. Biol.},
-year = {1982},
-volume = {95},
-pages = {49--79}
-}
-
-
 
 @article{Nair:2015gk,
 author = {Nair, A and Azatian, G and McHenry, M J},
@@ -397,12 +234,6 @@ volume = {216},
 pages = {388--398}
 }
 
-@article{Temizer:2015ux,
-author = {Temizer, I and Donovan, J C and Baier, H and Semmelhack, J L},
-title = {{A Visual Pathway for Looming-Evoked Escape in Larval Zebrafish}},
-journal = {Current Biology},
-year = {2015}
-}
 
 @article{Wainwright:2001ufa,
 author = {Wainwright, P C and Ferry-Graham, Lara and Waltzek, TB and Carroll, AM and Hulsey, CD and Grubich, JR},
@@ -453,22 +284,9 @@ year = {1995}
 @article{Wilson:2013fda,
 author = {Wilson, A M and Lowe, J C and Roskilly, K and Hudson, P E and Golabek, K A and McNutt, J W},
 title = {{Locomotion dynamics of hunting in wild cheetahs}},
-journal = {Nature},
+journal = {NATURE},
 year = {2013},
 volume = {498},
 pages = {185--189}
 }
-
-@article{Ydenberg:1986tm,
-author = {Ydenberg, R C and Dill, L M},
-title = {{The economics of fleeing from predators}},
-journal = {Adv. Stud. Behav.	},
-year = {1986},
-volume = {16},
-pages = {229--249}
-}
-
-
-
-
 
