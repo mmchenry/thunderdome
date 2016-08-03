@@ -70,14 +70,11 @@ Ghose, K., Horiuchi, T.~K., Krishnaprasad, P.~S. \& Moss, C.~F., 2006
   {Echolocating bats use a nearly time-optimal strategy to intercept prey}.
 \newblock \emph{PLoS biology} \textbf{4}, e108.
 
-<<<<<<< HEAD
-=======
 \bibitem{Isaacs:1965uz}
 Isaacs, R., 1965 {Differential Games. A Mathematical Theory with Applications
   to Warfare and Pursuit, Control and Optimization}.
 \newblock John Wiley {\&} Sons, Inc., New York.
 
->>>>>>> 92277220df10a3039897f8e726e111dda790d4cb
 \bibitem{Weihs:1984tb}
 Weihs, D. \& Webb, P., 1984 {Optimal avoidance and evasion tactics in
   predator-prey interactions}.
@@ -163,14 +160,6 @@ Stewart, W.~J. \& McHenry, M.~J., 2010 {Sensing the strike of a predator fish
   depends on the specific gravity of a prey fish}.
 \newblock \emph{J. Exp. Biol.} \textbf{213}, 3769--3777.
 
-<<<<<<< HEAD
-\bibitem{Stewart:2013bha}
-Stewart, W.~J., Cardenas, G.~S. \& McHenry, M.~J., 2013 {Zebrafish larvae evade
-  predators by sensing water flow}.
-\newblock \emph{J. Exp. Biol.} \textbf{216}, 388--398.
-
-=======
->>>>>>> 92277220df10a3039897f8e726e111dda790d4cb
 \bibitem{MasseyJr:1951jo}
 Massey, F.~J., Jr., 1951 {The Kolmogorov-Smirnov Test for Goodness of Fit}.
 \newblock \emph{J. Am. Stat. Assoc.} \textbf{46}, 68--78.
@@ -185,14 +174,6 @@ Nair, A., Azatian, G. \& McHenry, M.~J., 2015 {The kinematics of directional
   control in the fast start of zebrafish larvae}.
 \newblock \emph{J. Exp. Biol.} \textbf{218}, 3996--4004.
 
-<<<<<<< HEAD
-\bibitem{Isaacs:1965uz}
-Isaacs, R., 1965 {Differential Games. A Mathematical Theory with Applications
-  to Warfare and Pursuit, Control and Optimization}.
-\newblock John Wiley {\&} Sons, Inc., New York.
-
-=======
->>>>>>> 92277220df10a3039897f8e726e111dda790d4cb
 \bibitem{Cooper:2015vf}
 Cooper, W.~E. \& T, B.~D., 2015 \emph{{Escaping From Predators}}.
 \newblock Cambridge: Cambridge Univ. Press.
@@ -241,5 +222,10 @@ Muller, M., Osse, J. \& Verhagen, J., 1982 {A Quantitative Hydrodynamical Model
 Hernandez, L.~P., 2000 {Intraspecific scaling of feeding mechanics in an
   ontogenetic series of zebrafish, Danio rerio}.
 \newblock \emph{J. Exp. Biol} \textbf{203}, 3033--3043.
+
+\bibitem{Kane:2014bh}
+Kane, E.~A. \& Higham, T.~E., 2014 {Modelled three-dimensional suction accuracy
+  predicts prey capture success in three species of centrarchid fishes}.
+\newblock \emph{J. R. Soc. Interface} \textbf{11}, 20140223.
 
 \end{thebibliography}
