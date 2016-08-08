@@ -1,99 +1,52 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux
+The top-level auxiliary file: /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.aux
 The style file: ../prsb.bst
 Database file #1: ../ref.bib
-<<<<<<< HEAD
-Repeated entry---line 218 of file ../ref.bib
-=======
 Repeated entry---line 391 of file ../ref.bib
->>>>>>> 92277220df10a3039897f8e726e111dda790d4cb
  : @article{Stewart:2013bha
  :                         ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
 Warning--missing publisher in Alexander:BbR35qCj
-<<<<<<< HEAD
-You've used 27 entries,
+You've used 28 entries,
             2427 wiz_defined-function locations,
-            721 strings with 8902 characters,
-and the built_in function-call counts, 10052 in all, are:
-= -- 710
-> -- 284
+            724 strings with 9060 characters,
+and the built_in function-call counts, 10367 in all, are:
+= -- 726
+> -- 300
 < -- 0
-+ -- 230
-- -- 71
-* -- 581
-:= -- 1127
-add.period$ -- 55
-call.type$ -- 27
-change.case$ -- 24
++ -- 244
+- -- 75
+* -- 595
+:= -- 1162
+add.period$ -- 57
+call.type$ -- 28
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 1005
-empty$ -- 1001
-format.name$ -- 90
-if$ -- 2140
+cite$ -- 29
+duplicate$ -- 1041
+empty$ -- 1029
+format.name$ -- 95
+if$ -- 2205
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 285
-newline$ -- 115
-num.names$ -- 27
-pop$ -- 469
+int.to.str$ -- 28
+missing$ -- 295
+newline$ -- 119
+num.names$ -- 28
+pop$ -- 491
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 181
+skip$ -- 190
 stack$ -- 0
 substring$ -- 597
-swap$ -- 602
-=======
-You've used 43 entries,
-            2427 wiz_defined-function locations,
-            825 strings with 11597 characters,
-and the built_in function-call counts, 16029 in all, are:
-= -- 1130
-> -- 464
-< -- 0
-+ -- 378
-- -- 116
-* -- 927
-:= -- 1797
-add.period$ -- 87
-call.type$ -- 43
-change.case$ -- 40
-chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 1612
-empty$ -- 1583
-format.name$ -- 148
-if$ -- 3407
-int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 455
-newline$ -- 179
-num.names$ -- 43
-pop$ -- 750
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 291
-stack$ -- 0
-substring$ -- 933
-swap$ -- 966
->>>>>>> 92277220df10a3039897f8e726e111dda790d4cb
+swap$ -- 621
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-<<<<<<< HEAD
-while$ -- 71
-width$ -- 29
-write$ -- 274
-=======
-while$ -- 113
-width$ -- 45
-write$ -- 433
->>>>>>> 92277220df10a3039897f8e726e111dda790d4cb
+while$ -- 72
+width$ -- 30
+write$ -- 283
 (There was 1 error message)
