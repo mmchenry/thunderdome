@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  8 AUG 2016 10:51
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  9 AUG 2016 10:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1066,62 +1066,55 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.6001pt on input line 52.
 
-Overfull \hbox (7.29329pt too wide) in paragraph at lines 68--73
-\T1/ppl/m/n/9 Predator-prey in-ter-ac-tions of-fer a con-text for un-der-stand-ing the biome-chan-ics and neu-ro-phys-i-ol-ogy
+Underfull \hbox (badness 2103) in paragraph at lines 71--79
+[]\T1/ppl/m/n/9 Experimental ap-proaches for un-der-stand-ing the dy-nam-ics of preda-tors and prey are
  []
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.65005pt on input line 82.
+(Font)              scaled to size 7.65005pt on input line 79.
 
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [3]
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [5]
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [6]
-Underfull \hbox (badness 1210) in paragraph at lines 197--204
-\T1/ppl/m/n/9 gen-er-ated by an es-cap-ing prey. The num-ber of suc-cess-ful es-capes be-fore cap-ture for all
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [8]
-Underfull \hbox (badness 2150) in paragraph at lines 252--260
-[]\T1/ppl/m/n/9 We ex-am-ined whether es-cape speed and re-ac-tion dis-tance in-ter-ac-tively af-fect es-cape
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [9]
-Overfull \vbox (21.51176pt too high) has occurred while \output is active []
-
- [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (21.51176pt too high) has occurred while \output is active []
+
+ [10]
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [11]
@@ -1130,38 +1123,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
- [12] (/Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.bbl
+ [12]
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
- [13]
+ [13] (/Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.bbl
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
 
-Underfull \hbox (badness 1552) in paragraph at lines 59--61
-[]\T1/ppl/m/n/9 Weihs, D. & Webb, P., 1984 Op-ti-mal avoid-ance and eva-sion tac-tics in predator-prey
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 81--83
-[]\T1/ppl/m/n/9 Hedrick, T. L., 2008 Soft-ware tech-niques for two- and three-dimensional kine-matic
- []
-
-
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
- [14])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [14]
+Underfull \hbox (badness 1552) in paragraph at lines 74--76
+[]\T1/ppl/m/n/9 Weihs, D. & Webb, P., 1984 Op-ti-mal avoid-ance and eva-sion tac-tics in predator-prey
+ []
 
 
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [15]
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.22505pt on input line 377.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.22505pt on input line 377.
+Underfull \hbox (badness 2980) in paragraph at lines 149--151
+[]\T1/ppl/m/n/9 Hedrick, T. L., 2008 Soft-ware tech-niques for two- and three-dimensional kine-matic
+ []
 
-Underfull \hbox (badness 10000) detected at line 377
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (21.51176pt too high) has occurred while \output is active []
+
+ [16]
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 7.22505pt on input line 400.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.22505pt on input line 400.
+
+Underfull \hbox (badness 10000) detected at line 400
 []
  []
 
@@ -1169,32 +1165,19 @@ Underfull \hbox (badness 10000) detected at line 377
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \vbox (21.51176pt too high) has occurred while \output is active []
+Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
- [16]
+ [17]
 File: fig_setup.pdf Graphic file (type QTm)
  <use  "fig_setup.pdf" >
-Overfull \hbox (13.37279pt too wide) in paragraph at lines 410--415
+Overfull \hbox (13.37279pt too wide) in paragraph at lines 433--441
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 415.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 441.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.22505pt on input line 415.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (21.4162pt too high) has occurred while \output is active []
-
- [17]
-File: fig_PDFs.pdf Graphic file (type QTm)
- <use  "fig_PDFs.pdf" >
-Overfull \hbox (13.37279pt too wide) in paragraph at lines 423--428
- [][] 
- []
-
+(Font)              scaled to size 7.22505pt on input line 441.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1202,11 +1185,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [18]
+File: fig_PDFs.pdf Graphic file (type QTm)
+ <use  "fig_PDFs.pdf" >
+Overfull \hbox (13.37279pt too wide) in paragraph at lines 449--455
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (21.51176pt too high) has occurred while \output is active []
+
+ [19]
 File: fig_trajectories.pdf Graphic file (type QTm)
  <use  "fig_trajectories.pdf" >
 File: fig_sensitivity.pdf Graphic file (type QTm)
  <use  "fig_sensitivity.pdf" >
-Overfull \hbox (13.37279pt too wide) in paragraph at lines 451--455
+Overfull \hbox (13.37279pt too wide) in paragraph at lines 479--485
  [][] 
  []
 
@@ -1219,29 +1215,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
- [19] Setting LastPage
-Overfull \vbox (21.51176pt too high) has occurred while \output is active []
+ [20] Setting LastPage
+Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
- [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
+ [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
  (/Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 463.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 463.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 493.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 493.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.25pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 463.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 30177 strings out of 493591
- 577631 string characters out of 6143546
- 573561 words of memory out of 5000000
- 33149 multiletter control sequences out of 15000+600000
+ 30193 strings out of 493591
+ 577872 string characters out of 6143546
+ 574540 words of memory out of 5000000
+ 33165 multiletter control sequences out of 15000+600000
  54874 words of font info for 111 fonts, out of 8000000 for 9000
  1357 hyphenation exceptions out of 8191
  69i,18n,58p,10447b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.pdf (20 pages).
+Output written on /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.pdf (21 pages).
