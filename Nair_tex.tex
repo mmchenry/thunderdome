@@ -14,7 +14,11 @@
 \begin{document}
 
 %%%% Article title to be placed here
-\title{Zebrafish survival depends on escaping predators from a distance}
+%\title{Zebrafish survival depends on escaping predators from a distance}
+%\title{Enhanced performance in sensing, and not locomotion, improves survival in zebrafish prey}
+%\title{Enhanced locomotor performance does not improve survival in zebrafish prey}
+\title{A faster escape does not enhance survival in zebrafish prey}
+
 
 \author{%%%% Author details
 Arjun Nair, Christy Nguyen, and Matthew J. McHenry}
@@ -51,15 +55,13 @@ Irvine, CA 92697}
 
 \section*{Abstract}
 Predation is a fundamental interaction between animals, yet it is largely unclear how sensing and locomotion allow prey to survive encounters with predators.
-Using experiments and pursuit-evasion modeling, we examined the effects of kinematic events on prey survival in interactions between zebrafish (\textit{Danio rerio}) larvae and predators  (adults and juveniles) of the same species.
+Using experiments and game theory, we examined the effects of kinematic events on prey survival in interactions between zebrafish (\textit{Danio rerio}) larvae and predators (adults and juveniles) of the same species.
 High-speed 3D kinematic measurements tracked the body position of prey and predator to determine the probabilities of behavioral events by both fish.
 These measurements provided the basis for a pursuit-evasion model that simulated the trajectories of predator and prey. 
-The model was verified by the measured number of strikes that prey survived before capture.
-We conducted a sensitivity analysis of the model to determine which kinematic events influence prey survival.
-Our results suggest that zebrafish prey enhance survival only by expanding their reaction distance and that similar benefits cannot be achieved by increasing speed or altering the direction of an escape.
-Therefore, larval zebrafish escape with sufficient speed, but would benefit from responding from a greater distance.
-These findings suggest that the performance of predator detection is the decisive factor in the survival of fish prey.
-The suite of physiological characteristics that enable predator sensing should therefore distinguish successful prey and play a major role in the evolution of prey strategy.
+The model was verified by the number of strikes survived by prey and a sensitivity analysis tested which kinematic events influenced prey survival.
+The results suggest that zebrafish prey enhance survival only by expanding their reaction distance and that a similar benefit cannot be achieved by increasing speed or altering the direction of an escape.
+Therefore, locomotor performance is sufficiently effective for predator evasion, but detection is the decisive factor in the survival of fish prey.
+It follows that the ability of the visual and lateral line systems to detect a predator distinguishes successful prey and likely plays a major role in the evolution of predator evasion.
 
 \section{Introduction}
 
@@ -75,37 +77,37 @@ Multivariate statistics are generally insensitive to such dynamics, yet may succ
 Such analysis is enhanced by considering behavioral responses to an artificial predator or prey that is experimentally controlled and therefore not coupled \cite{Gabbiani:1999wz,Stewart:2014cma,Heuch:2007kk}.
 An alternative approach attempts to formulate a behavioral algorithm of one animal by considering their responses to the measured kinematics of the other.
 For example, such an approach found that predatory bats track evasive moths by maintaining their heading, rather than attempting to anticipate the prey's direction \cite{Ghose:2006dk}. 
-The present study introduces a variant on this technique by pairing kinematic analysis of predator and prey with pursuit-evasion modeling to examine the effects of kinematic parameters on predictions of prey survival.
+The present study introduces a variant on this technique by pairing kinematic analysis of predator and prey with pursuit-evasion modeling.
+The novelty of this approach is that it provides the opportunity to formulate predictions about survival and thereby examine the consequences of differences in kinematic parameters.
 
 Pursuit-evasion models consider the interactions between predator and prey by simulating how both animals move through space.
-This application of pursuit-evasion models has addressed the optimal direction of escaping fish prey \cite{Weihs:1984tb} by assuming simplified kinematics.
-From this perspective, predator-prey strategy may be categorized by the speed of the predator relative to the prey \cite{Soto:2015cj}. 
-The fast-predator domain corresponds to situations where the predator approaches at 10-times the escape speed of the prey.
-In this domain, the escape direction may matter little because of the meager distance that the prey may attain before being overtaken by the predator.
-In the slow-predator domain, where prey are faster than the predator, the rapid escape of prey permits a broad range of escape directions that are equally effective.
+This application of game theory has resolved three strategic domains for prey that are determined by the relative speed of the predator \cite{Gal:2014ve,Weihs:1984tb, Soto:2015cj}.
+The fast-predator domain corresponds to situations where the predator approaches at an order-of-magnitude faster than the prey's escape.
+In this domain, the escape direction may matter little because of the meager distance that an escape may attain before being overtaken.
+In the slow-predator domain, where prey are faster than the predator, the rapid escape permits a broad range of escape directions that are equally effective.
 It is only in the intermediate domain, when the predator is slightly faster, that the prey benefits by conforming to an optimal strategy.
-Prey operating in any domain should benefit from initiating an escape from a greater distance.
-These pursuit-evasion models offer a heuristic framework, but it is unclear how predictive they may be for biological systems. 
-For example, these models generally assume that both predator and prey operate with perfect information and move with a constant velocity and heading in purely deterministic calculations that do not consider variable behavior.
-In the interest of creating a pursuit-evasion model that is representative of realistic predator-prey interactions, we presently developed a pursuit-evasion model that incorporates measured variation in kinematic events in simulations that predict the motion of predator and prey. 
+These domains are most relevant to the effect of escape direction and prey in any domain benefits from escaping from a greater starting distance.
+Pursuit-evasion models offer a heuristic framework, but it is unclear how well they predict experimental measurements. 
+For example, these models generally assume that both predator and prey operate with perfect information and move with a constant velocity and heading.
+Under such assumptions, pursuit-evasion models are effective for resolving optimal strategies, but generally neglect the effects of constrained or variable behavior.
+In the interest of studying strategy in an experimental system, we presently developed a pursuit-evasion model that incorporates measured variation in kinematics into the actions of simulated predators and prey. 
 
-We performed our study with a focus on zebrafish (\textit{Danio rerio}). 
+We performed our study on zebrafish (\textit{Danio rerio}). 
 The larval stage of this species serves as a model for studying the neurophysiological \cite{Bianco:2015gm,Bagnall:2014iu,Huang:2013vj} and biomechanical \cite{Muller:2004hp,Li:2016cy} basis of behavior.
 Predator-prey interactions may be experimentally replicated in the lab, where adults and juveniles strike at larvae with suction feeding and the larvae respond with a fast-start escape response \cite{Stewart:2013bha}.
-These are the two principle behaviors that characterize of a broad diversity of piscivorous interactions \cite{Weihs:1984tb,Walker:2005vn,Higham:2007go,Higham:2005iu}. 
-When approaching an evasive prey, zebrafish predators will approach much more slowly than their maximum speed.
-This is a common phenomenon among suction-feeding fishes \cite{Higham:2005iu,Higham:2007go}, perhaps because it allows greater control over the direction and timing of the strike.
-Suction feeding is limited to a brief duration over a small region in front of the mouth \cite{Holzman:2008jc,Holzman:2009uu}. 
-In contrast, the high speed of the fast-start escape permits zebrafish larvae to operate in the slow-predator domain, where they may successfully escape in a variety of directions \cite{Soto:2015cj}.
-We tested this prediction of pursuit-evasion models and additionally examined how prey survival depends on the reaction distance and speed of the escape.  
-We performed experiments both with juvenile and adult predators to examine how the strategy of prey may vary with the relative size of the predator \cite{Fuiman:1994td}.
+These are the two principle behaviors that characterize a broad diversity of piscivorous interactions \cite{Weihs:1984tb,Walker:2005vn,Higham:2007go,Higham:2005iu}. 
+When approaching an evasive prey, zebrafish predators approach much more slowly than their maximum speed, which is common among suction-feeding fishes \cite{Higham:2005iu,Higham:2007go}.
+A slow approach presumably allows greater control over the direction and timing of the suction feeding, which is limited to a brief duration over a small region in front of the mouth \cite{Holzman:2008jc,Holzman:2009uu}. 
+The prey, by contrast, respond with an explosive escape response with speed that exceeds that of the predator. 
+As suggested by prior experiments \cite{Fuiman:1994td} and pursuit-evasion models \cite{Weihs:1984tb}, the relative speed of predator and prey greatly determines strategy.
+We therefore performed experiments with juvenile and adult predators with a nearly two-fold difference in body length.
 
 
 \section{Material and methods}
 
 \subsection{Animal husbandry}
 All experiments were conducted on zebrafish (\textit{Danio rerio}, Hamilton 1922) with larvae (5 -- 7 days post fertilization, dpf) that were preyed upon by older fish of the same species. 
-To examine how these interactions vary with the size of the predator, we performed one set of experiments using adults ($\geq 9$ months old, $3.4 \pm \SI{0.5}{\cm}$, \textit{N} = 19) and another using juvenile predators ($3-4$ months old, $2.0  \pm  \SI{0.4}{\cm}$, \textit{N} = 19).
+To examine how these interactions vary with the size of the predator, we performed one set of experiments using adults ($\geq 9$ months old, Mean $\pm$ 1 SD = $3.4 \pm \SI{0.5}{\cm}$, \textit{N} = 19) and another using juvenile predators ($3-4$ months old, $2.0  \pm  \SI{0.4}{\cm}$, \textit{N} = 19).
 All fish were bred from wild-type (AB line) colonies housed in a flow-through tank system (Aquatic Habitats, Apopka, FL, USA) that was maintained at $\SI{28.5}{\celsius}$ on a 14:10 h light:dark cycle. 
 To produce larvae, the fertilized eggs from randomized mating were cultured according to standard techniques \cite{Westerfield:UXiBrEuA}.
 Predators were motivated to feed by fasting for a period of 7 -- 14 days prior to an experiment.
@@ -116,7 +118,7 @@ We arranged the lights and cameras for high-speed recordings of both fish with h
 A hemispherical aquarium ($\oslash = \SI{8.5}{\cm}$) was composed of white acrylic, which served as a translucent diffuser of the IR illumination (940 nm) provided by three lamps (CM-IR200-940, CMVision, Houston, TX, USA), positioned below (Fig. \ref{fig_setup}a). 
 These lamps provided high-intensity illumination that was invisible to the fish \cite{Robinson:1993tu}, while visible illumination at low intensity was provided by overhead fluorescent lights.
 Each camera (FASTCAM Mini UX50, Precision Photron Inc., San Diego, CA, USA) was fitted with a \SI{55}{\mm} lens (f/2.8 Micro Nikkon AIS, Nikon Inc., Melville, NY, USA) and positioned at a distance that permitted a view of the entire aquarium. 
-The cameras were angled above the aquarium to allow both fish to be viewed by at least two cameras when the fish were positioned close together, despite the aquarium walls blocking the view of the two fish.
+The cameras were angled above the aquarium to allow both fish to be viewed by at least two cameras when the fish were positioned close together.
 The cameras were synchronized to record at a 1,000 fps (at 1024 x 1024 pixels) with a common TTL trigger and controlled with the manufacturer's software (PhotronFASTCAM Viewer).
 
 Predation experiments were performed by recording the swimming of one predator and one prey fish in the aquarium (Fig. 1A). 
@@ -130,19 +132,19 @@ A direct-linear transform (DLT) was calculated using `Digitizing Tools' software
 Using a custom script in MATLAB, we found the body positions of predator and prey fish by selecting landmarks from two camera views and using the DLT to determine the coordinates in 3D space.
 We used the position of the predator's two eyes to calculate a mean position that approximated the buccal cavity (Fig. \ref{fig_setup}a).
 The posterior margin of the swim bladder was found on the prey's body, which approximates the center of mass \cite{Stewart:2010ig}.
-The initial heading of the prey was approximated by matching an ellipsoid (using 'regionprops' method in MATLAB) to the body of the prey and measuring the angle of the major axis of the ellipsoid.
-All subsequent heading measurements of the prey was defined as the average angular displacement of prey during an escape and was relative to the previous heading of the prey.
-We acquired the landmark positions at four key events in each interaction between predator and prey: (1) when the predator initiated an approach toward the prey, (2) at the mid-duration of suction feeding by the predator and (3) at the initiation and (4) completion of the prey's escape response.
+The initial heading of the prey was approximated by matching an ellipsoid (using the 'regionprops' function in MATLAB) to the body of the prey and measuring the angle of the major axis of the ellipsoid.
+All subsequent heading measurements of the prey was defined as the average angular displacement of prey during an escape and was relative to the prior heading of the prey.
+We acquired the landmark positions at four key events in each interaction between predator and prey: at (1) the initiation of a predator's approach toward the prey, (2) the mid-duration of suction feeding by the predator and the (3) initiation and (4) completion of the prey's escape response.
 
 
 \subsection{Descriptive statistics}
 
 Descriptive statistics were used to characterize the probability of actions by the predator and prey during predation experiments.
-For all interactions recorded among our experiments, we found predator-specific parameters that consisted of the strike distance ($s$), the distance from the prey at which a strike was initiated, and the strike duration ($\tau$), which was defined as the period between the opening and closing of the mouth during suction feeding. 
+We recorded the predator-specific parameters of the strike distance ($s$), the distance from the prey at which a strike was initiated, and the strike duration ($\tau$), which was defined as the period between the opening and closing of the mouth during suction feeding. 
 For the prey, we found the reaction distance ($l$), the distance from the predator at which the escape response was initiated.
 The prey's kinematics were additionally characterized by the escape angle ($\theta$), the angular change in heading from the resting orientation to the escape path.
 The escape duration ($\eta$) included the period for all stages of the C-start and subsequent undulatory swimming, until the larva ceased moving.
-The frequency distribution for each parameter was found to be well-approximated by the following lognormal probability density function:
+The frequency distribution for each of these parameters was found to be well-approximated by the following lognormal probability density function:
 %
 \begin{equation}%%% Equation lognormal distribution
 f(x) = \frac{1}{x\sigma \sqrt{2 \pi}} \text{exp} \left[ -{\frac{(ln(x)-\mu)^2}{2\sigma ^2}} \right],
@@ -162,29 +164,28 @@ C(d) = \left[ 1+e^{-r(d-d_0)} \right]^{-1},
 \end{equation}
 %
 where $d$ is the distance between predator and prey, $d_0$ is the decay distance, and $r$ is the decay rate. 
-The best-fit values for $d_0$ and $r$ were determined by least-squares (`sqcurvefit' function in MATLAB).
+The best-fit values for $d_0$ and $r$ were determined by least-squares (using the `sqcurvefit' function in MATLAB).
 
 All parameters for the prey and predators were compared between experiments with adult predators and juvenile predators.
-We found that these parameters failed to conform to normal distributions.
-We therefore performed comparisons with non-parametric statistics, using a two-sample Kolmogorov-Smirnov test (i.e. KS-test) \cite{MasseyJr:1951jo}. 
+Because these measurements failed to conform to normal distributions, we performed statistical comparisons using non-parametric statistics.
+In particular, we used the two-sample Kolmogorov-Smirnov test (i.e. KS-test) \cite{MasseyJr:1951jo}, which does not assume any particular distribution for the data. 
 
 
 \subsection{Pursuit-evasion model}
 A pursuit-evasion model was developed to simulate the conditions of our experiments. 
-This model predicted the 2D motion of a predator (i.e. pursuer) and prey (i.e. evader) \cite{Isaacs:1965uz} according to algorithms that were specific to the behavioral state of each of these agents (Fig. \ref{fig_setup}b). 
+This model predicted the 2D motion of a predator and prey \cite{Isaacs:1965uz} according to algorithms that were specific to the behavioral state of each of these agents (Fig. \ref{fig_setup}b). 
 The predator's states were Tracking and Striking and the prey's were Resting and Escaping. 
 The duration of states, probability of transitioning between states, and probability of prey capture were determined by random-number generation that conformed to the probability distributions and range of values that we measured.
 Therefore, the model treated the predator and prey's actions as probabilistic, but each outcome of an interaction also depended on the determinism of the kinematics of the two agents.
 Simulations were scripted in MATLAB to calculate the motion of both agents and their behavioral states, which consequently determined the number of unsuccessful strikes before prey capture.
 
 Each simulation began with the predator in the Tracking state, where it moved at an approach speed with a direction that was always headed toward the prey, with perfect information about the prey's position (Fig. \ref{fig_setup}b). 
-If the prey was motionless, then the solver would skip in time to the strike or escape initiation, whichever was found to occur first.
+If the prey was motionless, then the solver would advance in time to the strike or escape initiation, whichever was found to occur first.
 Otherwise, the solver would resolve both predator and prey motion with a fixed time step of \SI{5}{\ms}. 
 In this regime, the predator adjusted its heading to track the prey with a temporal time delay, $\lambda$.  
-The predator's transition into the Striking state occurred when the prey was within a particular distance that was determined by the strike distance. 
+The predator's transition into the Striking state occurred when the prey was within a particular value for the strike distance. 
 This value was determined \textit{a-priori} by the generation of a random value (using the `random' function in MATLAB) according to the lognormal probability density function (Eqn. \ref{eqn_lognorm}) for measured values of strike distance.
 The capture probability, $C$, for a particular strike depended on the distance between the agents in the middle of a strike, according to our measured parameter values for this relationship (Eqn. \ref{eqn_sig}).
-This relationship was used to determine whether a strike successfully captured a prey.
 The simulation was terminated if a strike was successful, otherwise the predator reverted to the Tracking state after completion of the strike duration (Fig. \ref{fig_setup}b).
 The value of strike duration was determined by the generation of a random value from the lognormal probability density function from measured values.
 Single values for the predator speed and delay were used for all simulations (Table \ref{table}) and were determined by trial-and-error to replicate the distribution of the measured number of unsuccessful strikes before prey capture. 
@@ -192,37 +193,36 @@ These values were found to approximate measurements reported in prior studies \c
 
 The pursuit-evasion model simultaneously determined the actions of prey (Fig. \ref{fig_setup}b).
 Prey behavior was modeled with Resting and Escaping states because larval zebrafish generally remain still between periods of rapid swimming initiated by an escape response \cite{Stewart:2013bha, Stewart:2014cma}. 
-The prey began each simulation in the Resting state, where it was motionless at a random distance equal to, or less than, the aquarium diameter ($\oslash = \SI{8.5}{\cm}$) away from the predator.
-The prey transitioned into the Escaping state when the predator moved within the reaction distance after a latency \cite{Nair:2015gk}.
-During an escape, the prey was assumed to follow a straight path in the direction of the escape angle.
-Using a frame-by-frame kinematic analysis of escape swimming for 12 larvae, we found that prey varied speed as a saw-toothed function of time that approximately attained its maximum value at 20\% of the duration. 
-We consequently modeled variation in swimming speed for prey to attain the maximum speed at 0.2$\eta$, where $\eta$ is the escape duration. 
+The prey began each simulation in the Resting state, where it was motionless and positioned at a random distance from the predator that was within the aquarium diameter ($\oslash = \SI{8.5}{\cm}$).
+The prey transitioned into the Escaping state when the predator moved within the reaction distance, after a latency \cite{Nair:2015gk}.
+During an escape, the speed of prey varied as a saw-toothed function of time, with the maximum value attained at 0.2$\eta$, where $\eta$ is the escape duration. 
+We found that this function well-characterized prey speed using a frame-by-frame kinematic analysis of escape swimming for 12 larvae. 
+During the escape, the prey was assumed to follow a straight path in a direction determined by the escape angle and escape direction.
 The reaction distance, escape angle, and escape duration were determined by random numbers with probability density functions matching experimental measurements.
-The escape angle was defined with respect to the prey's frame of reference, with $\theta =  \SI{0}{\degree}$ corresponding to forward motion.
-The  escape direction was defined as the probability that the escape angle was directed away from the predator, with a value (Table \ref{table}) that was previously measured \cite{Stewart:2014cma}.
+The escape angle was defined with respect to the prey's frame of reference, with $\theta =  \SI{0}{\degree}$ corresponding to and axis defined by forward motion.
+This angle was directed with respect to the right or left side of the body by the escape direction.
+The escape direction was defined as the probability that the escape angle was directed toward the side of the body facing away from the predator, with a value (Table \ref{table}) that was previously measured \cite{Stewart:2014cma}.
 
 This model simplified many aspects of the complexity of predator-prey interactions.
 It assumed that the kinematics of the two fish may be approximated with two-dimensional motion that is not bounded by an aquarium. 
 Simulations were halted if prey successfully escaped on 20 occasions, which reflected the observed maximum and guarded against an errant simulation of infinite duration.
-The model's probabilistic approach considered the probabilistic effects of biomechanics and neurophysiology without explicitly articulating those elements.
+The model's use of random number generation considered the probabilistic effects of biomechanics and neurophysiology without explicitly articulating those elements.
 For example, capture success was treated as a distance-specific probability (Eqn. \ref{eqn_sig}) that modeled neither the effects of a predator's suction-feeding hydrodynamics, nor the propulsive forces generated by an escaping prey.
 The number of successful escapes before capture for all experiments were compared to the same metric for 1,000 simulations.  
 This comparison was executed by a two-sample Kolmogorov-Smirnov test, which was chosen over a Kruskal-Wallis test because of its emphasis on the shape of the distribution.  
 
-A sensitivity analysis evaluated the parameters that characterized prey behavior to determine which had the greatest effect on prey survival. 
+We designed a sensitivity analysis to evaluate the parameters that had the greatest effect on prey survival. 
 This was achieved by running batches of a 1,000 simulations where one parameters was varied between -90\% and 100\% of their original mean values at increments of 10\%.
-Batches  were ran for each prey associated parameter.
 For parameters described by a probability distribution, the log-mean parameter, $\mu$, was adjusted to create the desired percent-change in the mean of the distribution, while $\sigma$ was held constant.
 The range of possible random values for each distribution was also adjusted to retain the the same cumulative probability range in the probability distribution.
 The effect of these manipulations were assessed by comparing the measured escape probability against the model's prediction using a Kruskal-Wallis test. 
-
 
 
 \section{Results} %==================================================================
 
 \subsection{Kinematics} %==========
 The behavior of both predator and prey were similar whether the predators were juvenile or adult zebrafish.
-Prey responded with similar behavior, having indistinguishable differences in escape angle (KS-test: $P = 0.86, N = 164$) and with modest, though significant, differences in reaction distance (KS-test: $P < 0.001, N = 164$) and escape duration (KS-test: $P = 0.04, N = 153$) (Fig. \ref{fig_PDF}\textit{b--c}). 
+Prey responded with similarly, having indistinguishable differences in escape angle (KS-test: $P = 0.86, N = 164$) and with modest, though significant, differences in reaction distance (KS-test: $P < 0.001, N = 164$) and escape duration (KS-test: $P = 0.04, N = 153$) (Fig. \ref{fig_PDF}\textit{b--c}). 
 For example, prey reacted at a mean distance to juvenile predators ($\overline{l} = \SI{8.4}{\mm}, N = 91$), that was about two-thirds the reaction distance to adults ($\overline{l} = \SI{12.6}{\mm}, N = 73$).
 Escape swimming lasted for about one-third of a second, with the response to juveniles ($\overline{\eta} = \SI{0.35}{\s}$, $N$ = 91) being only  $\SI{50}{\ms}$ longer than to adults ($\overline{\eta} = \SI{0.30}{\s}$, $N$ = 62).
 Prey escaped earlier to adult predators (KS-test: $P = 0.02, N = 89$) by $\SI{41}{\ms}$, on average, relative to the mid-duration of suction feeding.
@@ -234,10 +234,10 @@ Juveniles did not succeed in capturing prey beyond a distance of $\SI{3.2}{\mm}$
 In the relationship between capture probability and distance (Eqn. \ref{eqn_sig}), the decay distance was used to indicate the spatial range of high capture probability. 
 By this metric, the strike of adult predators also exhibited a range that was slightly greater than 3-times the distance of juveniles (Table \ref{table}, Fig. \ref{fig_PDF}\textit{f}).
 We tested whether this result was due to juveniles approaching the prey with inferior accuracy by measuring the bearing angle of predators.
-This angle corresponds to the radial position of the prey relative to the predator's heading, such that a predator is perfectly accurate for a prey position of $\SI{0}{\degree}$, and therefore indicated the spatial accuracy of a strike.
+This angle corresponds to the radial position of the prey relative to the predator's heading, such that a predator is perfectly accurate for a prey position of $\SI{0}{\degree}$.
 The bearing angle when they prey initiated an escape was not significantly different (KS-test: $P = 0.15$) between juveniles ($N = 91$) or adults ($N = 77$).
 However, bearing angles changed such that there was a significant difference (KS-test: $P = 0.15$) between adults and juveniles when measured at the moment of mid-gape.
-Adult predators succeeded in achieving a median bearing of $\SI{13.1}{\degree}$ (Mean = \SI{35.3}{\degree}), whereas the same metric was $\SI{30.0}{\degree}$ (Mean = \SI{39.2}{\degree}) in juveniles.
+In particular, adult predators succeeded in achieving a median bearing of $\SI{13.1}{\degree}$ (Mean = \SI{35.3}{\degree}), whereas the same metric was $\SI{30.0}{\degree}$ (Mean = \SI{39.2}{\degree}) in juveniles.
 This suggests that adults were more accurate in their strikes and more effectively adjusted their heading in the time between escape and strike.
 
 
@@ -265,47 +265,49 @@ Increases to the mean reaction distance caused escape probability to increase up
 We examined how the effect of reaction distance varies with escape speed by conducting a two-dimensional sensitivity analysis (Fig. \ref{fig_sense}\textit{b}).
 It was not until speed was reduced by more than 50\% that the relationship between response distance and survivor was altered.
 For example, reducing speed by 70\% yielded a distinct curve, the shape of which was similar to the sigmoid generated at higher speeds (Fig. \ref{fig_sense}\textit{c}). 
-Alterations in response distance did affect the relationship between escape speed and survival , though the shape of this curve was largely unaltered (Fig. \ref{fig_sense}\textit{d}).
+Alterations in response distance did affect the relationship between escape speed and survival, though the shape of this curve was largely unaltered (Fig. \ref{fig_sense}\textit{d}).
 This suggests little evidence for an interactive effect on survival between escape speed and response distance.
 
-
+\pagebreak
 
 \section{Discussion}%================================
 
-The present study succeeded in testing how a prey's kinematics affect their ability to survive an encounter with a predator.
+The present study succeeded in testing how a prey's kinematics affect the ability to survive an encounter with a predator.
 This was achieved by developing a pursuit-evasion model that successfully replicated the broad patterns of survival (Fig. \ref{fig_traj}\textit{c}) by incorporating the measured probabilities of behavioral events in zebrafish (Fig. \ref{fig_PDF}).
 A sensitivity analysis of the model revealed that prey may improve survival only by expanding the distance at which an escape is initiated (Fig. \ref{fig_sense}). 
 The observed escape speed is sufficiently rapid and the escape may be successfully executed in a variety of directions.
-These results were largely similar whether the predator was a juvenile or adult zebrafish.
+Therefore, prey survival is enhanced by increases in the performance of sensing and not locomotion.
 
 
 \subsection{Prey survival depends on reaction distance} 
 
 Our finding on the importance of reaction distance is consistent with prior theoretical and experimental studies.
 The reaction distance commonly serves as a metric of the sensitivity of prey to an approaching predator in behavioral ecology studies \cite{Cooper:2015vf}.
-The strategic advantage to responding at a greater distance is supported by the predictions of pursuit-evasion models, particularly in models were both animals are assumed to maintain a fixed heading \cite{Isaacs:1965uz,Weihs:1984tb,Soto:2015cj}. 
+The strategic advantage to responding at a greater distance is supported by the predictions of pursuit-evasion models, particularly in models where both animals are assumed to maintain a fixed heading \cite{Isaacs:1965uz,Weihs:1984tb,Soto:2015cj}. 
 Quite simply, a prey's ability to maintain some distance is enhanced when they start from further away.
 
 However, there are a variety of conditions where one might expect a response from a great distance to have adverse consequences.
-Ydenberg and Dill \cite{Ydenberg:1986tm} illustrated a myriad number of ways in which escaping in response to a predator may incur costs that exceed the benefits of predator evasion.
-For example, escape responses may be energetically costly, prohibit foraging, or succeed in revealing a cryptic prey \cite{Cooper:2015vf,Broom:2005gq}.
-The potential for costs are largely removed in our experiments, where prey are provided little alternative to predator evasion.
-However, the costs to escape behavior could have been shaped the evolution of zebrafish behavior.
+Ydenberg and Dill \cite{Ydenberg:1986tm} illustrated a myriad number of ways in which escaping in response to a predator may incur costs that exceed the potential benefit to survival.
+For example, escape responses may be energetically costly, prohibit foraging, or succeed in revealing cryptic prey \cite{Cooper:2015vf,Broom:2005gq}.
+The potential for such costs are largely removed in our experiments, where prey are provided little alternative to predator evasion.
+However, trade-offs could have shaped the evolution of evasive behavior in zebrafish.
 Responding from a great distance may even be inferior on purely strategic grounds. 
 For example, escaping early along a straight path, as we observed in zebrafish larvae (Fig. \ref{fig_traj}\textit{a}), may afford more time for a predator adjust its heading and accelerate to intercept a prey. 
 We did not find evidence for this in zebrafish (Fig. \ref{fig_PDF}\textit{f}), but it remains a possibility in other species.
 
-The primacy of escape distance underscores the strategic importance of predator sensing. 
-Our model is not explicit about any particular sensory modality, but our measurements of reaction distance (Fig. \ref{fig_PDF}\textit{c}, Table \ref{table}) are within the range possible for vision \cite{Dunn:2016jt}, olfaction \cite{Waldman:1982ic}, or flow sensing by the lateral line system.
-Olfactory cues probably did not play a major role in our experiments. 
+The primacy of escape distance underscores the strategic importance of predator detection. 
+Our model does not explicitly model any particular sensory modality, but our measurements of reaction distance (Fig. \ref{fig_PDF}\textit{c}, Table \ref{table}) are within the range possible for vision \cite{Dunn:2016jt}, olfaction \cite{Waldman:1982ic}, or flow sensing by the lateral line system.
 Zebrafish are sensitive to the smell of the alarm pheromone Schreckstoff, which is released by conspecifics when the skin is damaged. 
 However, this sensitivity is not acquired until a later stage in zebrafish growth (>48 dpf) \cite{Waldman:1982ic} and the water in our experimental aquarium was changed between trials.
 Our experimental design does allow for the possibility that the scent of adult zebrafish could enhance the sensitivity of other sensory modalities.
+However, it appears unlikely that olfactory cues would be necessary to elicit the escape responses that we observed. 
 
 Previous work established that escape responses are elicited in larval zebrafish by a looming visual stimulus \cite{Bianco:2011ca} and by the bow wave of flow ahead of an approaching predator \cite{Stewart:2014cma}.
 Vision offers superior range, but its demands for neuronal processing necessitate a latency of at least $\SI{200}{\ms}$ \cite{Burgess:2007vp}, in contrast to the rapid responses to flow that may occur in less than $\SI{10}{\ms}$  \cite{Liu:1999fs}.
-The flow sensing that is facilitated by the lateral line system is necessary for zebrafish larvae to survive encounters with adult predators \cite{Stewart:2013bha}, but its limited range fails to stimulate an escape response beyond a distance of \SI{1.3}{\cm} \cite{Stewart:2014cma}.
-This suggests that the responses at greater distances (Fig. \ref{fig_PDF}\textit{c}, Table \ref{table}) may be attributed to the visual appearance of the predator as a looming stimulus. 
+However, flow sensing is limited to a narrow spatial range ahead of the predator. 
+Zebrafish larvae fail to respond to the flow generated by an adult predator within \SI{1.3}{\cm} of the predator's rostrum \cite{Stewart:2014cma}.
+We did find a high frequency of responses within this range Fig. \ref{fig_PDF}\textit{c}, Table \ref{table}), which may explain why the lateral line was found to be necessary for survival in an earlier study \cite{Stewart:2013bha}.
+However, the responses that we did observe at greater distances (Fig. \ref{fig_PDF}\textit{c}, Table \ref{table}) may be attributed entirely to the visual appearance of the predator as a looming stimulus. 
 It is at these distances where prey gain the greatest strategic advantage ((Fig. \ref{fig_sense}\textit{a}).
 Therefore, our findings suggest that prey have the best change at surviving an encounter with a predator when they are responsive to a threatening visual stimulus.
 It follows that the performance of the visual system of prey is the most decisive factor in the predator-prey strategy of fishes.
@@ -318,7 +320,7 @@ Although larger zebrafish have the capacity to move faster than larvae, they app
 This is likely executed in the interest of controlling the timing and direction of suction-feeding with greater precision, as observed in other fishes \cite{Higham:2005iu,Higham:2007go}.
 In contrast, prey execute a c-start escape response that offers the most explosively rapid behavior for which they are capable \cite{Muller:2004hp}.
 Our findings suggests that this behavior would be no more effective if executed at greater speed.
-The probability of surviving an encounter with a predator showed little improvement by increasing speed in our sensitivity analysis and we began to find an adverse effect only when the speed was reduced by half the observed value (Fig. \ref{fig_sense}\textit{a},\textit{c}).
+The probability of survival showed little improvement by increasing speed in our sensitivity analysis and we began to find some effect only when the speed was reduced by half the observed value (Fig. \ref{fig_sense}\textit{a},\textit{c}).
 Therefore, zebrafish larvae escape with a speed that is more than sufficient to survive encounters with predators.
 
 The escape speed affects the strategic significance of escape direction \cite{Isaacs:1965uz,Weihs:1984tb}.
@@ -334,22 +336,20 @@ Despite a nearly two-fold difference in size, the differences in predator strate
 Predators were similar in the strike duration and proximity at which feeding was initiated (Fig. \ref{fig_PDF}\textit{d}--\textit{e}).
 Prey responded with escapes that were similar in direction and duration (Fig. \ref{fig_PDF}\textit{a}--\textit{b}), but were initiated in response to juveniles at about two-thirds the mean distance observed for adults (Fig. \ref{fig_PDF}\textit{c}).
 
-The key distinction between predators was in the spatial range at which prey were successfully captured (Fig. \ref{fig_PDF}\textit{c}).
+The largest distinction between predators was in the spatial range at which prey were successfully captured (Fig. \ref{fig_PDF}\textit{c}).
 Adults captured prey at a distance that was about three-fold greater than juveniles.
 This difference is somewhat surprising in light of prior research on suction feeding. 
 The flow speed generated at the mouth is proportional to the rate of buccal expansion and inversely proportional to the area of the mouth opening \cite{Holzman:2008jc,Muller:1982p335}.
-Consistent from prior work, we found that duration of a strike is similar between juveniles and adult zebrafish (Fig. \ref{fig_PDF}\textit{d}) \cite{Hernandez:2000uma}.
-Furthermore, zebrafish exhibit negative allometric growth in gape diameter and hyoid depression \cite{Hernandez:2000uma}, which suggests that adults and juveniles have a feeding apparatus with similar dimensions that are consequently expected to generate similar flow fields.
-Although similar in hydrodynamics, adults were likely more effective because they directed their strike with greater accuracy. 
-As detailed in the Results, we found that the bearing angle of adults was significantly smaller than that of juveniles. 
-Therefore, it appears that adults were more successful at capturing prey at a distance because they directed the suction-feeding flow field more directly at the prey.
-This idea is consistent with previous research examining what distinguishes successful suction feeding fishes \cite{Kane:2014bh}.
+Consistent with prior work, we found that duration of a strike is similar between juveniles and adult zebrafish (Fig. \ref{fig_PDF}\textit{d}) \cite{Hernandez:2000uma}.
+Furthermore, zebrafish exhibit negative allometric growth in gape diameter and hyoid depression \cite{Hernandez:2000uma}, which suggests that adults and juveniles have a feeding apparatus with similar dimensions and are consequently expected to generate similar flow fields.
+Although similar in hydrodynamics, adults directed their strike more effectively toward the prey, as indicated by the bearing angle at mid strike.
+Therefore, it appears that adults are more successful predators because they feed with a more accurate strike, which is a finding that is consistent with previous research \cite{Kane:2014bh}.
 
 
 \subsection*{Summary} 
 
 We found that that prey survival in zebrafish may be improved only by expanding the reaction distance (Fig. \ref{fig_sense}\textit{a}), which is an ability that depends on the sensitivity of a prey to visual cues. 
-Fishes that swim substantially faster than their predators do not benefit from swimming even faster and survival does not depend strongly on the direction of an escape.
+Fishes that swim substantially faster than their predators do not benefit from more rapid swimming and survival does not depend strongly on the direction of an escape.
 Predators such as zebrafish may differ in the effective range of suction feeding by aiming the strike with greater accuracy.
 These findings offer valuable insight into the key strategic factors that govern predator-prey interactions in a diversity of fishes. 
 
@@ -358,12 +358,14 @@ These findings offer valuable insight into the key strategic factors that govern
 
 
 \section*{Authors' contributions}
+
 The study was designed in collaboration between AN and MJM.
 AN and CN performed all experiments and kinematic analysis.
 The pursuit-evasion model was created by AN, with guidance from MJM. 
 The manuscript was written collaboratively by AN and MJM.
 
 \section*{Competing interests}
+
 We declare we have no competing interests.
 
 \section*{Funding}
@@ -432,12 +434,16 @@ T, Tracking; S, Striking; R, Resting; E, Escaping; $\mu$, log mean; $\sigma$, lo
 \centering
 	\includegraphics[width=5.5in]{fig_setup}
 \caption{
-Kinematic measurements and game modeling for studying predator-prey interactions in zebrafish. 
+Kinematic measurements and pursuit-evasion modeling for studying predator-prey interactions in zebrafish. 
 (\textit{a}) Three high-speed video cameras recorded video of one larval prey and one predator fish (adult or juvenile) that were placed in a hemispherical aquarium. 
 A representative video frame (cropped to the margin of the aquarium) shows an adult in close proximity to the prey. 
 In the inset, orange markers denote the locations of morphological landmarks used to describe the position of the two fish.
 This consisted of the position of the two eyes for the predator ("+") and the posterior margin of the swim bladder in the prey (open circle). 
- (\textit{b}) A flow chart illustrates the major components of the game model used to simulate the interactions between predators and prey (see Table \ref{table} for symbol definitions and parameter values). T, S, R, and E represent the Tracking, Striking, Resting, and Escaping states (See section 2d for further explanation).
+ (\textit{b}) A flow chart illustrates the major components of the model used to simulate the interactions between predators and prey (see Table \ref{table} for symbol definitions and parameter values). 
+Each fish behaves according to an algorithm is specific to a particular behavioral state and the probability of transitioning between states is determined by random-number generators with probability distributions matching kinematic measurements (Fig \ref{fig_PDF}).
+Predators (in red) operate between Tracking (T) and Striking (S) states and prey are either Resting (R) or Escaping (E).
+The outcome of a strike is determined by the capture probability ($C$, Eqn. \ref{eqn_sig}). 
+See Materials and methods for details.
  }
 \label{fig_setup}
 \end{figure}
@@ -465,9 +471,9 @@ Parameters were measured from the kinematics of prey (\textit{a-c}) and predator
 Comparison between experimental measurements and game modeling. 
 (\textit{a}) Trajectories of predator and prey from a representative experiment (left) and simulation (right). 
 The position of predator and prey that correspond to particular time points are shown with connecting arrows.
-(\textit{b}) Ethograms for these trajectories illustrate the temporal changes in the predator's swimming and strike (left), which are respectively modeled by the T and S (Fig. \ref{fig_setup}\textit{b}) modes (right). 
-The prey's behavior while motionless and during escape (left) were respectively modeled as R and E modes (right).
-For both ethograms, the distance between predator and prey are shown.
+(\textit{b}) Ethograms for these trajectories illustrate the temporal changes in the predator's swimming and strike (left), which are respectively modeled by the Tracking (T) and Striking (S) (Fig. \ref{fig_setup}\textit{b}) states (right). 
+The prey's behavior while motionless and during escape (left) were respectively modeled as Resting (E) and Escape (E) modes (right).
+For both ethograms, the distance ($d$) between predator and prey are shown.
 Particular moments in the trajectories are highlighted with vertical lines that correspond with the same-colored arrows in (\textit{a}).
 (\textit{c}) The probability that a prey survives over a particular number of strikes is shown adult  (above) and juvenile (below) predators for experiments (dark gray) and simulations (light gray).   
 }
@@ -477,11 +483,11 @@ Particular moments in the trajectories are highlighted with vertical lines that 
 \begin{figure}[!h]
 \centering
 	\includegraphics[width=5.5in]{fig_sensitivity}
-\caption{Sensitivity analysis of the game model to examine the effects of parameters on escape probability. 
+\caption{Sensitivity analysis of the pursuit-evasion model to examine the effects of parameters on escape probability.   
 (\textit{a}) We varied the mean of the distribution for each prey parameter by manipulating the log-mean value (see Table \ref{table} for parameter definitions and values), with each point representing the result of 1000 simulations. 
 Solid points represent significant differences (KS-test: P < 0.05) from a 0\% change.
 (\textit{b}) Variation in escape probability was examined with respect to both escape speed and reaction distance.
-The same simulation results are shown with respect to changes in escape speed (\textit{c}) and reaction distance (\textit{d}).
+The same simulation results are shown with respect to changes in escape speed (\textit{c}) and reaction distance (\textit{d}). All simulations used an adult predator, although similar results were obtained with a juvenile predator (Fig. S1).
 }
 \label{fig_sense}
 \end{figure}
