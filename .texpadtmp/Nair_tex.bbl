@@ -4,56 +4,66 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
-\bibitem{Alexander:BbR35qCj}
-Alexander, R.~M., 2003 \emph{{Principles of Animal Locomotion}}.
-\newblock Princeton, NJ.
+\bibitem{Bullock:1984gd}
+Bullock, T.~H., 1984 {Comparative Neuroethology of Startle, Rapid Escape, and
+  Giant Fiber-Mediated Responses}.
+\newblock In \emph{Neural Mechanisms of Startle Behavior}, pp. 1--13. Boston,
+  MA: Springer US.
 
-\bibitem{Wilson:2013fda}
-Wilson, A.~M., Lowe, J.~C., Roskilly, K., Hudson, P.~E., Golabek, K.~A. \&
-  McNutt, J.~W., 2013 {Locomotion dynamics of hunting in wild cheetahs}.
-\newblock \emph{Nature} \textbf{498}, 185--189.
+\bibitem{YOUNG:1938vi}
+Young, J.~Z., 1938 {The Functioning of the Giant Nerve Fibres of the Squid}.
+\newblock \emph{J. Exp. Biol} \textbf{15}, 170--185.
+
+\bibitem{Eaton:1975ux}
+Eaton, R. \& Farley, R., 1975 {Mauthner neuron field potential in newly hatched
+  larvae of zebra fish}.
+\newblock \emph{J. Neurophysiol.} \textbf{38}, 502--512.
+
+\bibitem{Johnson:1926cl}
+Johnson, G.~E., 1926 {Studies on the functions of the giant nerve fibers of
+  crustaceans, with special reference to \textit{Cambarus} and
+  \textit{Palaemonetes}}.
+\newblock \emph{J. Comp. Neurol.} \textbf{42}, 19--33.
+
+\bibitem{Weihs:1984tb}
+Weihs, D. \& Webb, P., 1984 {Optimal avoidance and evasion tactics in
+  predator-prey interactions}.
+\newblock \emph{J. Theor. Biol.} \textbf{106}, 189--206.
+
+\bibitem{Humphries:1970hy}
+Humphries, D.~A. \& Driver, P.~M., 1970 {Protean defence by prey animals}.
+\newblock \emph{Oecologia} \textbf{5}, 285--302.
+
+\bibitem{Howland:1974ud}
+Howland, H.~C., 1974 {Optimal strategies for predator avoidance: The relative
+  importance of speed and manoeuvrability}.
+\newblock \emph{J. Theor. Biol.} \textbf{47}, 333--350.
+
+\bibitem{Webb:1984jz}
+Webb, P.~W., 1984 {Body and fin form and strike tactics of four teleost
+  predators attacking fathead minnow (\textit{Pimephales promelas}) prey}.
+\newblock \emph{Can J Fish Aquat Sci} \textbf{41}, 157--165.
+
+\bibitem{Higham:2007go}
+Higham, T.~E., 2007 {Feeding, fins and braking maneuvers: locomotion during
+  prey capture in centrarchid fishes}.
+\newblock \emph{J. Exp. Biol} \textbf{210}, 107--117.
 
 \bibitem{Walker:2005vn}
 Walker, J.~A., Ghalambor, C.~K., Griset, O.~L., McKenney, D. \& Reznick, D.~N.,
   2005 {Do faster starts increase the probability of evading predators?}
 \newblock \emph{Func. Ecol.} \textbf{19}, 808--815.
 
-\bibitem{Domenici:2011tv}
-Domenici, P., Blagburn, J. \& Bacon, J.~P., 2011 {Animal escapology I:
-  theoretical issues and emerging trends in escape trajectories}.
-\newblock \emph{J. Exp. Biol.} \textbf{214}, 2463--2473.
-
-\bibitem{Howland:1974ud}
-Howland, H.~C., 1974 {Optimal strategies for predator avoidance: The relative
-  importance of speed and manoeuvrability}.
-\newblock \emph{J. Theor. Biol.} .
-
-\bibitem{deVries:2012tc}
-deVries, M.~S., Murphy, E. A.~K. \& Patek, S., 2012 {Strike mechanics of an
-  ambush predator: the spearing mantis shrimp}.
-\newblock \emph{J. Exp. Biol.} \textbf{215}, 4374--4384.
-
-\bibitem{Holzman:2009uu}
-Holzman, R. \& Wainwright, P.~C., 2009 {How to surprise a copepod: Strike
-  kinematics reduce hydrodynamic disturbance and increase stealth of
-  suction-feeding fish}.
-\newblock \emph{Limnol. Oceanogr.} \textbf{54}, 2201--2212.
-
-\bibitem{Dill:1972wh}
-Dill, L., 1972 {Visual mechanism determining flight distance in zebra danios
-  (\textit{Brachydanio-Rerio} Pisces)}.
-\newblock \emph{Nature} \textbf{236}, 30--32.
+\bibitem{Wainwright:2001ufa}
+Wainwright, P.~C., Ferry-Graham, L., Waltzek, T.~B., Carroll, A.~M., Hulsey,
+  C.~D. \& Grubich, J.~R., 2001 {Evaluating the use of ram and suction during
+  prey capture by cichlid fishes}.
+\newblock \emph{J. Exp. Biol.} \textbf{204}, 3039--3051.
 
 \bibitem{Gabbiani:1999wz}
 Gabbiani, F., Krapp, H.~G. \& Laurent, G., 1999 {Computation of object approach
   by a wide-field, motion-sensitive neuron}.
 \newblock \emph{J. Neurosci.} \textbf{19}, 1122--1141.
-
-\bibitem{Wainwright:2001ufa}
-Wainwright, P.~C., Ferry-Graham, L., Waltzek, T., Carroll, A., Hulsey, C. \&
-  Grubich, J., 2001 {Evaluating the use of ram and suction during prey capture
-  by cichlid fishes}.
-\newblock \emph{J. Exp. Biol.} \textbf{204}, 3039--3051.
 
 \bibitem{Stewart:2014cma}
 Stewart, W.~J., Nair, A., Jiang, H. \& McHenry, M.~J., 2014 {Prey fish escape
@@ -65,26 +75,15 @@ Heuch, P.~A., Doall, M.~H. \& Yen, J., 2007 {Water flow around a fish mimic
   attracts a parasitic and deters a planktonic copepod}.
 \newblock \emph{J.Plank. Res.} \textbf{29}, i3--i16.
 
+\bibitem{Shifferman:2004fs}
+Shifferman, E. \& David, J., 2004 {Movement and direction of movement of a
+  simulated prey affect the success rate in barn owl Tyto alba attack}.
+\newblock \emph{J Avian Biol} \textbf{35}, 111--116.
+
 \bibitem{Ghose:2006dk}
 Ghose, K., Horiuchi, T.~K., Krishnaprasad, P.~S. \& Moss, C.~F., 2006
   {Echolocating bats use a nearly time-optimal strategy to intercept prey}.
 \newblock \emph{PLoS biology} \textbf{4}, e108.
-
-\bibitem{Gal:2014ve}
-Gal, S. \& Casas, J., 2014 {Succession of hide{\textendash}seek and
-  pursuit{\textendash}evasion at heterogeneous locations}.
-\newblock \emph{J. R. Soc. Interface} \textbf{11}, 20140062.
-
-\bibitem{Weihs:1984tb}
-Weihs, D. \& Webb, P., 1984 {Optimal avoidance and evasion tactics in
-  predator-prey interactions}.
-\newblock \emph{J. Theor. Biol.} \textbf{106}, 189--206.
-
-\bibitem{Soto:2015cj}
-Soto, A., Stewart, W.~J. \& McHenry, M.~J., 2015 {When optimal strategy matters
-  to prey fish}.
-\newblock \emph{Int. Comp. Biol.} \textbf{55}, 110--120.
-\newblock (\doi{doi:10.1093/icb/icv027}).
 
 \bibitem{Bianco:2015gm}
 Bianco, I.~H. \& Engert, F., 2015 {Visuomotor transformations underlying
@@ -117,22 +116,17 @@ Stewart, W.~J., Cardenas, G.~S. \& McHenry, M.~J., 2013 {Zebrafish larvae evade
   predators by sensing water flow}.
 \newblock \emph{J. Exp. Biol.} \textbf{216}, 388--398.
 
-\bibitem{Higham:2007go}
-Higham, T.~E., 2007 {Feeding, fins and braking maneuvers: locomotion during
-  prey capture in centrarchid fishes}.
-\newblock \emph{J. Exp. Biol} \textbf{210}, 107--117.
-
-\bibitem{Higham:2005iu}
-Higham, T.~E., Malas, B., Jayne, B.~C. \& Lauder, G.~V., 2005 {Constraints on
-  starting and stopping: behavior compensates for reduced pectoral fin area
-  during braking of the bluegill sunfish \textit{Lepomis macrochirus}}.
-\newblock \emph{J. Exp. Biol} \textbf{208}, 4735--4746.
-
 \bibitem{Holzman:2008jc}
 Holzman, R., Collar, D.~C., Day, S.~W., Bishop, K.~L. \& Wainwright, P.~C.,
   2008 {Scaling of suction-induced flows in bluegill: morphological and
   kinematic predictors for the ontogeny of feeding performance}.
 \newblock \emph{J. Exp. Biol.} \textbf{211}, 2658--2668.
+
+\bibitem{Holzman:2009uu}
+Holzman, R. \& Wainwright, P.~C., 2009 {How to surprise a copepod: Strike
+  kinematics reduce hydrodynamic disturbance and increase stealth of
+  suction-feeding fish}.
+\newblock \emph{Limnol. Oceanogr.} \textbf{54}, 2201--2212.
 
 \bibitem{Fuiman:1994td}
 Fuiman, L.~A., 1994 {The interplay of ontogeny and scaling in the interactions
@@ -179,6 +173,61 @@ Nair, A., Azatian, G. \& McHenry, M.~J., 2015 {The kinematics of directional
   control in the fast start of zebrafish larvae}.
 \newblock \emph{J. Exp. Biol.} \textbf{218}, 3996--4004.
 
+\bibitem{FerryGraham:2003bz}
+Ferry-Graham, L.~A., Wainwright, P.~C. \& Lauder, G.~V., 2003 {Quantification
+  of flow during suction feeding in bluegill sunfish}.
+\newblock \emph{Zoology} \textbf{106}, 159--168.
+
+\bibitem{Higham:2005kg}
+Higham, T.~E., 2005 {Sucking while swimming: evaluating the effects of ram
+  speed on suction generation in bluegill sunfish \textit{Lepomis macrochirus}
+  using digital particle image velocimetry}.
+\newblock \emph{J. Exp. Biol.} \textbf{208}, 2653--2660.
+
+\bibitem{Holzman:2007p15907}
+Holzman, R., Day, S.~W. \& Wainwright, P.~C., 2007 {Timing is everything:
+  coordination of strike kinematics affects the force exerted by suction
+  feeding fish on attached prey.}
+\newblock \emph{J Exp. Biol.} \textbf{210}, 3328--3336.
+
+\bibitem{Higham:2007hy}
+Higham, T.~E., Hulsey, C.~D., {\v{R}}{\'i}{\v c}an, O. \& Carroll, A.~M., 2007
+  {Feeding with speed: prey capture evolution in cichilds}.
+\newblock \emph{J. Evol. Biol.} \textbf{20}, 70--78.
+
+\bibitem{Soto:2015cj}
+Soto, A., Stewart, W.~J. \& McHenry, M.~J., 2015 {When optimal strategy matters
+  to prey fish}.
+\newblock \emph{Int. Comp. Biol.} \textbf{55}, 110--120.
+\newblock (\doi{doi:10.1093/icb/icv027}).
+
+\bibitem{Domenici:2001gj}
+Domenici, P., 2001 {The scaling of locomotor performance in predator--prey
+  encounters: from fish to killer whales}.
+\newblock \emph{Comparative Biochemistry and Physiology Part A: Molecular {\&}
+  Integrative Physiology} \textbf{131}, 169--182.
+
+\bibitem{pitcher:1986}
+Pitcher, J., 1986 Functions of shoaling behaviour in teleosts.
+\newblock In \emph{The Behaviour of Teleost Fishes} (ed. J.~Pitcher),
+  chapter~12, pp. 294--337. Springer.
+
+\bibitem{Combes:2012et}
+Combes, S.~A., Rundle, D.~E., Iwasaki, J.~M. \& Crall, J.~D., 2012 {Linking
+  biomechanics and ecology through predator{\textendash}prey interactions:
+  flight performance of dragonflies and their prey}.
+\newblock \emph{J. Exp. Biol} \textbf{215}, 903--913.
+
+\bibitem{Domenici:2011tv}
+Domenici, P., Blagburn, J. \& Bacon, J.~P., 2011 {Animal escapology I:
+  theoretical issues and emerging trends in escape trajectories}.
+\newblock \emph{J. Exp. Biol.} \textbf{214}, 2463--2473.
+
+\bibitem{Domenici:2011vl}
+Domenici, P., Blagburn, J. \& Bacon, J.~P., 2011 {Animal escapology II: escape
+  trajectory case studies}.
+\newblock \emph{J. Exp. Biol.} \textbf{214}, 2474--2494.
+
 \bibitem{Cooper:2015vf}
 Cooper, W.~E. \& T, B.~D., 2015 \emph{{Escaping From Predators}}.
 \newblock Cambridge: Cambridge Univ. Press.
@@ -192,16 +241,10 @@ Broom, M. \& Ruxton, G.~D., 2005 {You can run{\textemdash}or you can hide:
   optimal strategies for cryptic prey against pursuit predators}.
 \newblock \emph{Behav. Ecol.} \textbf{16}, 534--540.
 
-\bibitem{Dunn:2016jt}
-Dunn, T.~W., Gebhardt, C., Naumann, E.~A., Riegler, C., Ahrens, M.~B., Engert,
-  F. \& Del~Bene, F., 2016 {Neural Circuits Underlying Visually Evoked Escapes
-  in Larval Zebrafish}.
-\newblock \emph{Neuron} \textbf{89}, 613--628.
-
-\bibitem{Waldman:1982ic}
-Waldman, B., 1982 {Quantitative and developmental analyses of the alarm
-  reaction in the zebra danio, \textit{Brachydanio rerio}}.
-\newblock \emph{Copeia} \textbf{1982}, 1--9.
+\bibitem{Liu:1999fs}
+Liu, K. \& Fetcho, J.~R., 1999 {Laser ablations reveal functional relationships
+  of segmental hindbrain neurons in zebrafish}.
+\newblock \emph{Neuron} \textbf{23}, 325--335.
 
 \bibitem{Bianco:2011ca}
 Bianco, I.~H., Kampff, A.~R. \& Engert, F., 2011 {Prey capture behavior evoked
@@ -213,24 +256,9 @@ Burgess, H.~A. \& Granato, M., 2007 {Modulation of locomotor activity in larval
   zebrafish during light adaptation}.
 \newblock \emph{J. Exp. Biol.} \textbf{210}, 2526--2539.
 
-\bibitem{Liu:1999fs}
-Liu, K. \& Fetcho, J.~R., 1999 {Laser ablations reveal functional relationships
-  of segmental hindbrain neurons in zebrafish}.
-\newblock \emph{Neuron} \textbf{23}, 325--335.
-
-\bibitem{Muller:1982p335}
-Muller, M., Osse, J. \& Verhagen, J., 1982 {A Quantitative Hydrodynamical Model
-  of Suction Feeding in Fish}.
-\newblock \emph{J. Theor. Biol.} \textbf{95}, 49--79.
-
-\bibitem{Hernandez:2000uma}
-Hernandez, L.~P., 2000 {Intraspecific scaling of feeding mechanics in an
-  ontogenetic series of zebrafish, Danio rerio}.
-\newblock \emph{J. Exp. Biol} \textbf{203}, 3033--3043.
-
-\bibitem{Kane:2014bh}
-Kane, E.~A. \& Higham, T.~E., 2014 {Modelled three-dimensional suction accuracy
-  predicts prey capture success in three species of centrarchid fishes}.
-\newblock \emph{J. R. Soc. Interface} \textbf{11}, 20140223.
+\bibitem{Waldman:1982ic}
+Waldman, B., 1982 {Quantitative and developmental analyses of the alarm
+  reaction in the zebra danio, \textit{Brachydanio rerio}}.
+\newblock \emph{Copeia} \textbf{1982}, 1--9.
 
 \end{thebibliography}

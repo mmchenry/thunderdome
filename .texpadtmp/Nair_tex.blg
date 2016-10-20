@@ -1,52 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux
+The top-level auxiliary file: /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.aux
 The style file: ../prsb.bst
 Database file #1: ../ref.bib
-Repeated entry---line 400 of file ../ref.bib
+Repeated entry---line 528 of file ../ref.bib
  : @article{Stewart:2013bha
  :                         ,
 I'm skipping whatever remains of this entry
-Warning--missing publisher in Alexander:BbR35qCj
-You've used 45 entries,
+You've used 50 entries,
             2427 wiz_defined-function locations,
-            836 strings with 11911 characters,
-and the built_in function-call counts, 16753 in all, are:
-= -- 1180
-> -- 480
-< -- 0
-+ -- 390
-- -- 120
-* -- 971
-:= -- 1879
-add.period$ -- 91
-call.type$ -- 45
-change.case$ -- 42
+            875 strings with 12807 characters,
+and the built_in function-call counts, 18728 in all, are:
+= -- 1353
+> -- 484
+< -- 3
++ -- 381
+- -- 121
+* -- 1087
+:= -- 2099
+add.period$ -- 103
+call.type$ -- 50
+change.case$ -- 52
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 1686
-empty$ -- 1659
-format.name$ -- 154
-if$ -- 3563
+cite$ -- 50
+duplicate$ -- 1891
+empty$ -- 1882
+format.name$ -- 156
+if$ -- 4008
 int.to.chr$ -- 0
-int.to.str$ -- 45
-missing$ -- 475
-newline$ -- 187
-num.names$ -- 45
-pop$ -- 782
+int.to.str$ -- 50
+missing$ -- 521
+newline$ -- 207
+num.names$ -- 52
+pop$ -- 848
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 303
+skip$ -- 341
 stack$ -- 0
-substring$ -- 981
-swap$ -- 1010
-text.length$ -- 0
+substring$ -- 1155
+swap$ -- 1131
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 117
-width$ -- 47
-write$ -- 453
+warning$ -- 0
+while$ -- 140
+width$ -- 52
+write$ -- 507
 (There was 1 error message)
