@@ -154,6 +154,11 @@ Stewart, W.~J. \& McHenry, M.~J., 2010 {Sensing the strike of a predator fish
   depends on the specific gravity of a prey fish}.
 \newblock \emph{J. Exp. Biol.} \textbf{213}, 3769--3777.
 
+\bibitem{Wainwright:2007uq}
+Wainwright, P.~C. \& Day, S.~W., 2007 {The forces exerted by suction feeders on
+  their prey}.
+\newblock \emph{J.R. Soc. Interface} \textbf{4}, 553--560.
+
 \bibitem{MasseyJr:1951jo}
 Massey, F.~J., Jr., 1951 {The Kolmogorov-Smirnov Test for Goodness of Fit}.
 \newblock \emph{J. Am. Stat. Assoc.} \textbf{46}, 68--78.
@@ -201,32 +206,16 @@ Soto, A., Stewart, W.~J. \& McHenry, M.~J., 2015 {When optimal strategy matters
 \newblock \emph{Int. Comp. Biol.} \textbf{55}, 110--120.
 \newblock (\doi{doi:10.1093/icb/icv027}).
 
-\bibitem{Domenici:2001gj}
-Domenici, P., 2001 {The scaling of locomotor performance in predator--prey
-  encounters: from fish to killer whales}.
-\newblock \emph{Comparative Biochemistry and Physiology Part A: Molecular {\&}
-  Integrative Physiology} \textbf{131}, 169--182.
-
-\bibitem{pitcher:1986}
-Pitcher, J., 1986 Functions of shoaling behaviour in teleosts.
-\newblock In \emph{The Behaviour of Teleost Fishes} (ed. J.~Pitcher),
-  chapter~12, pp. 294--337. Springer.
-
 \bibitem{Combes:2012et}
 Combes, S.~A., Rundle, D.~E., Iwasaki, J.~M. \& Crall, J.~D., 2012 {Linking
   biomechanics and ecology through predator{\textendash}prey interactions:
   flight performance of dragonflies and their prey}.
 \newblock \emph{J. Exp. Biol} \textbf{215}, 903--913.
 
-\bibitem{Domenici:2011tv}
-Domenici, P., Blagburn, J. \& Bacon, J.~P., 2011 {Animal escapology I:
-  theoretical issues and emerging trends in escape trajectories}.
-\newblock \emph{J. Exp. Biol.} \textbf{214}, 2463--2473.
-
-\bibitem{Domenici:2011vl}
-Domenici, P., Blagburn, J. \& Bacon, J.~P., 2011 {Animal escapology II: escape
-  trajectory case studies}.
-\newblock \emph{J. Exp. Biol.} \textbf{214}, 2474--2494.
+\bibitem{Corcoran:2016ed}
+Corcoran, A.~J. \& Conner, W.~E., 2016 {How moths escape bats: predicting
+  outcomes of predator{\textendash}prey interactions}.
+\newblock \emph{J. Exp. Biol} \textbf{219}, 2704--2715.
 
 \bibitem{Cooper:2015vf}
 Cooper, W.~E. \& T, B.~D., 2015 \emph{{Escaping From Predators}}.
@@ -240,6 +229,22 @@ Ydenberg, R.~C. \& Dill, L.~M., 1986 {The economics of fleeing from predators}.
 Broom, M. \& Ruxton, G.~D., 2005 {You can run{\textemdash}or you can hide:
   optimal strategies for cryptic prey against pursuit predators}.
 \newblock \emph{Behav. Ecol.} \textbf{16}, 534--540.
+
+\bibitem{Casas:2014bn}
+Casas, J. \& Steinmann, T., 2014 {Predator-induced flow disturbances alert
+  prey, from the onset of an attack}.
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences}
+  \textbf{281}, 20141083.
+
+\bibitem{Dangles:2006vo}
+Dangles, O., Ory, N., Steinmann, T., Christides, J.~P. \& Casas, J., 2006
+  {Spider's attack versus cricket's escape: velocity modes determine success}.
+\newblock \emph{Animal Behaviour} .
+
+\bibitem{Waldman:1982ic}
+Waldman, B., 1982 {Quantitative and developmental analyses of the alarm
+  reaction in the zebra danio, \textit{Brachydanio rerio}}.
+\newblock \emph{Copeia} \textbf{1982}, 1--9.
 
 \bibitem{Liu:1999fs}
 Liu, K. \& Fetcho, J.~R., 1999 {Laser ablations reveal functional relationships
@@ -255,10 +260,5 @@ Bianco, I.~H., Kampff, A.~R. \& Engert, F., 2011 {Prey capture behavior evoked
 Burgess, H.~A. \& Granato, M., 2007 {Modulation of locomotor activity in larval
   zebrafish during light adaptation}.
 \newblock \emph{J. Exp. Biol.} \textbf{210}, 2526--2539.
-
-\bibitem{Waldman:1982ic}
-Waldman, B., 1982 {Quantitative and developmental analyses of the alarm
-  reaction in the zebra danio, \textit{Brachydanio rerio}}.
-\newblock \emph{Copeia} \textbf{1982}, 1--9.
 
 \end{thebibliography}

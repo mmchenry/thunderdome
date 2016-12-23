@@ -1,51 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/arjunnair0513/thunderdome/.texpadtmp/Nair_tex.aux
+The top-level auxiliary file: /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux
 The style file: ../prsb.bst
 Database file #1: ../ref.bib
-Repeated entry---line 528 of file ../ref.bib
+Repeated entry---line 537 of file ../ref.bib
  : @article{Stewart:2013bha
  :                         ,
 I'm skipping whatever remains of this entry
 You've used 50 entries,
             2427 wiz_defined-function locations,
-            875 strings with 12807 characters,
-and the built_in function-call counts, 18728 in all, are:
-= -- 1353
-> -- 484
-< -- 3
-+ -- 381
-- -- 121
-* -- 1087
-:= -- 2099
-add.period$ -- 103
+            876 strings with 12941 characters,
+and the built_in function-call counts, 18505 in all, are:
+= -- 1329
+> -- 492
+< -- 1
++ -- 392
+- -- 123
+* -- 1071
+:= -- 2078
+add.period$ -- 102
 call.type$ -- 50
-change.case$ -- 52
+change.case$ -- 50
 chr.to.int$ -- 0
 cite$ -- 50
-duplicate$ -- 1891
-empty$ -- 1882
-format.name$ -- 156
-if$ -- 4008
+duplicate$ -- 1873
+empty$ -- 1852
+format.name$ -- 160
+if$ -- 3947
 int.to.chr$ -- 0
 int.to.str$ -- 50
-missing$ -- 521
+missing$ -- 519
 newline$ -- 207
-num.names$ -- 52
-pop$ -- 848
+num.names$ -- 50
+pop$ -- 849
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 341
+skip$ -- 331
 stack$ -- 0
-substring$ -- 1155
-swap$ -- 1131
-text.length$ -- 3
+substring$ -- 1120
+swap$ -- 1114
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 140
+while$ -- 136
 width$ -- 52
-write$ -- 507
+write$ -- 505
 (There was 1 error message)
