@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 DEC 2016 13:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 DEC 2016 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1087,17 +1087,17 @@ Overfull \hbox (14.27687pt too wide) has occurred while \output is active
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 13.6001pt on input line 56.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.65005pt on input line 80.
+(Font)              scaled to size 7.65005pt on input line 81.
 
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 2781) in paragraph at lines 81--89
+Underfull \hbox (badness 2781) in paragraph at lines 82--90
 []\T1/ppl/m/n/9 We ad-dressed this aim with a novel ap-proach that com-bines ex-per-i-men-ta-tion with
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 81--89
+Underfull \hbox (badness 5274) in paragraph at lines 82--90
 \T1/ppl/m/n/9 math-e-mat-i-cal mod-el-ing. Our method-ol-ogy was de-vel-oped to meet the chal-lenges to
  []
 
@@ -1108,6 +1108,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [4]
@@ -1117,14 +1120,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [5]
-Overfull \vbox (21.51176pt too high) has occurred while \output is active []
-
- [6]
-Underfull \hbox (badness 1231) in paragraph at lines 180--191
-[]\T1/ppl/m/n/9 Each sim-u-la-tion be-gan with the preda-tor in the Track-ing state, where it moved at a
+Underfull \hbox (badness 1242) in paragraph at lines 180--191
+\T1/ppl/m/n/9 ap-proach speed with a di-rec-tion that was al-ways headed to-ward the prey, with per-fect
  []
 
 
+Overfull \vbox (21.51176pt too high) has occurred while \output is active []
+
+ [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1140,9 +1143,12 @@ Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [9]
-Underfull \hbox (badness 1406) in paragraph at lines 252--257
-[]\T1/ppl/m/n/9 The model ac-cu-rately pre-dicted our mea-sure-ments of prey sur-vivor-ship. Sur-vivor-ship
+Underfull \hbox (badness 4013) in paragraph at lines 250--255
+[]\T1/ppl/m/n/9 The model ac-cu-rately pre-dicted our mea-sure-ments of prey sur-vivor-ship. Mea-sured
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
@@ -1153,10 +1159,10 @@ Overfull \vbox (21.4162pt too high) has occurred while \output is active []
  [11]
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
- [12]
+ [12] (/Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.bbl
 Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
- [13] (/Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.bbl
+ [13]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
 
@@ -1183,11 +1189,11 @@ Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 
  [16]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.22505pt on input line 385.
+(Font)              scaled to size 7.22505pt on input line 382.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.22505pt on input line 385.
+(Font)              scaled to size 7.22505pt on input line 382.
 
-Underfull \hbox (badness 10000) detected at line 385
+Underfull \hbox (badness 10000) detected at line 382
 []
  []
 
@@ -1200,57 +1206,57 @@ Overfull \vbox (21.4162pt too high) has occurred while \output is active []
  [17] <fig_setup.pdf, id=347, 622.99951pt x 193.59627pt>
 File: fig_setup.pdf Graphic file (type pdf)
  <use fig_setup.pdf>
-Package pdftex.def Info: fig_setup.pdf used on input line 418.
+Package pdftex.def Info: fig_setup.pdf used on input line 415.
 (pdftex.def)             Requested size: 397.48499pt x 123.52306pt.
 
-Overfull \hbox (13.37279pt too wide) in paragraph at lines 418--431
+Overfull \hbox (13.37279pt too wide) in paragraph at lines 415--428
  [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8.5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 431.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 428.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 7.22505pt on input line 431.
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 431.
+(Font)              scaled to size 7.22505pt on input line 428.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 428.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 431.
+(Font)              size <8> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 431.
+(Font)              size <5> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
-(Font)              size <8> substituted on input line 431.
+(Font)              size <8> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.25> not available
-(Font)              size <5> substituted on input line 431.
+(Font)              size <5> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 431.
+(Font)              size <8> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 431.
+(Font)              size <5> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 431.
+(Font)              size <8> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 431.
+(Font)              size <5> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 431.
+(Font)              size <8> substituted on input line 428.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 431.
+(Font)              size <5> substituted on input line 428.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1261,10 +1267,10 @@ Overfull \vbox (21.51176pt too high) has occurred while \output is active []
  [18 <./fig_setup.pdf>] <fig_PDFs.pdf, id=441, 376.43033pt x 268.81027pt>
 File: fig_PDFs.pdf Graphic file (type pdf)
  <use fig_PDFs.pdf>
-Package pdftex.def Info: fig_PDFs.pdf used on input line 439.
+Package pdftex.def Info: fig_PDFs.pdf used on input line 436.
 (pdftex.def)             Requested size: 397.48499pt x 283.86287pt.
 
-Overfull \hbox (13.37279pt too wide) in paragraph at lines 439--448
+Overfull \hbox (13.37279pt too wide) in paragraph at lines 436--445
  [][] 
  []
 
@@ -1277,15 +1283,15 @@ Overfull \vbox (21.51176pt too high) has occurred while \output is active []
  [19 <./fig_PDFs.pdf>] <fig_trajectories.pdf, id=744, 316.383pt x 420.08444pt>
 File: fig_trajectories.pdf Graphic file (type pdf)
  <use fig_trajectories.pdf>
-Package pdftex.def Info: fig_trajectories.pdf used on input line 456.
+Package pdftex.def Info: fig_trajectories.pdf used on input line 453.
 (pdftex.def)             Requested size: 325.215pt x 431.82004pt.
  <fig_sensitivity.pdf, id=747, 431.749pt x 325.83331pt>
 File: fig_sensitivity.pdf Graphic file (type pdf)
  <use fig_sensitivity.pdf>
-Package pdftex.def Info: fig_sensitivity.pdf used on input line 472.
+Package pdftex.def Info: fig_sensitivity.pdf used on input line 469.
 (pdftex.def)             Requested size: 397.48499pt x 299.994pt.
 
-Overfull \hbox (13.37279pt too wide) in paragraph at lines 472--479
+Overfull \hbox (13.37279pt too wide) in paragraph at lines 469--477
  [][] 
  []
 
@@ -1302,11 +1308,11 @@ Overfull \vbox (21.51176pt too high) has occurred while \output is active []
 Overfull \vbox (21.4162pt too high) has occurred while \output is active []
 
  [21 <./fig_sensitivity.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 487.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 487.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 485.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 485.
  (/Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 487.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 487.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 485.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 485.
 Package rerunfilecheck Info: File `Nair_tex.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
@@ -1314,18 +1320,18 @@ Package rerunfilecheck Info: File `Nair_tex.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.25pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 487.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 485.
  ) 
 Here is how much of TeX's memory you used:
  26527 strings out of 493089
  530367 string characters out of 6134842
- 554257 words of memory out of 5000000
+ 554244 words of memory out of 5000000
  29453 multiletter control sequences out of 15000+600000
  76516 words of font info for 145 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  69i,18n,58p,10463b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.pdf (21 pages, 4104683 bytes).
+Output written on /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/Nair_tex.pdf (21 pages, 4103999 bytes).
 PDF statistics:
  1000 PDF objects out of 1000 (max. 8388607)
  664 compressed objects within 7 object streams
