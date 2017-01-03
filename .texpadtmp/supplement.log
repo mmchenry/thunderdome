@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 DEC 2016 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 JAN 2017 07:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -806,23 +806,29 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count198
- <supp_sense.pdf, id=4, 464.01054pt x 333.43771pt>
+ <supp_sense.pdf, id=4, 464.01054pt x 516.86098pt>
 File: supp_sense.pdf Graphic file (type pdf)
  <use supp_sense.pdf>
 Package pdftex.def Info: supp_sense.pdf used on input line 40.
-(pdftex.def)             Requested size: 397.48499pt x 285.6366pt.
+(pdftex.def)             Requested size: 397.48499pt x 442.7646pt.
 
-Overfull \hbox (37.48499pt too wide) in paragraph at lines 40--46
+Overfull \hbox (37.48499pt too wide) in paragraph at lines 40--47
  [][] 
  []
+
+
+LaTeX Warning: Float too large for page by 64.05226pt on input line 49.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <supp_noescape.pdf, id=5, 491.74417pt x 255.18637pt>
 File: supp_noescape.pdf Graphic file (type pdf)
  <use supp_noescape.pdf>
-Package pdftex.def Info: supp_noescape.pdf used on input line 52.
+Package pdftex.def Info: supp_noescape.pdf used on input line 53.
 (pdftex.def)             Requested size: 397.48499pt x 206.2793pt.
 
-Overfull \hbox (37.48499pt too wide) in paragraph at lines 52--56
+Overfull \hbox (37.48499pt too wide) in paragraph at lines 53--57
  [][] 
  []
 
@@ -832,10 +838,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <supp_pred_speed_vs_capture.pdf, id=6, 511.9125pt x 215.80624pt>
 File: supp_pred_speed_vs_capture.pdf Graphic file (type pdf)
  <use supp_pred_speed_vs_capture.pdf>
-Package pdftex.def Info: supp_pred_speed_vs_capture.pdf used on input line 62.
+Package pdftex.def Info: supp_pred_speed_vs_capture.pdf used on input line 63.
 (pdftex.def)             Requested size: 397.48499pt x 167.56752pt.
 
-Overfull \hbox (37.48499pt too wide) in paragraph at lines 62--68
+Overfull \hbox (37.48499pt too wide) in paragraph at lines 63--69
  [][] 
  []
 
@@ -845,19 +851,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <supp_num_trials.pdf, id=7, 511.9125pt x 215.80624pt>
 File: supp_num_trials.pdf Graphic file (type pdf)
  <use supp_num_trials.pdf>
-Package pdftex.def Info: supp_num_trials.pdf used on input line 74.
+Package pdftex.def Info: supp_num_trials.pdf used on input line 77.
 (pdftex.def)             Requested size: 397.48499pt x 167.56752pt.
 
-Overfull \hbox (37.48499pt too wide) in paragraph at lines 74--77
+Overfull \hbox (37.48499pt too wide) in paragraph at lines 77--80
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./supp_sense.pdf>] [2 <./supp_noescape.pdf>] [3 <./supp_pred_speed_vs_capture.pdf> <./supp_num_trials.pdf>] (/Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/supplement.aux)
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./supp_sense.pdf>] [2 <./supp_noescape.pdf>] [3 <./supp_pred_speed_vs_capture.pdf> <./supp_num_trials.pdf>] (/Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/supplement.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -865,16 +869,16 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  22220 strings out of 493089
  465838 string characters out of 6134842
- 449725 words of memory out of 5000000
+ 449723 words of memory out of 5000000
  25335 multiletter control sequences out of 15000+600000
  13938 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,56p,10464b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/supplement.pdf (3 pages, 1123791 bytes).
+Output written on /Users/mmchenry/Documents/Manuscripts/Thunderdome/ms/.texpadtmp/supplement.pdf (3 pages, 1152792 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 246 compressed objects within 3 object streams
+ 519 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

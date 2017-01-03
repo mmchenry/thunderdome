@@ -133,11 +133,6 @@ Fuiman, L.~A., 1994 {The interplay of ontogeny and scaling in the interactions
   of fish larvae and their predators}.
 \newblock \emph{J. Fish. Biol.} \textbf{45}, 55--79.
 
-\bibitem{Westerfield:UXiBrEuA}
-Westerfield, M., 1995 \emph{{The Zebrafish Book: A Guide for the Laboratory Use
-  of Zebrafish, (\textit{Brachydanio rerio}).}}
-\newblock Eugene, OR: University of Oregon Press.
-
 \bibitem{Robinson:1993tu}
 Robinson, J., Schmitt, E.~A., H{\'a}rosi, F.~I., Reece, R.~J. \& Dowling,
   J.~E., 1993 {Zebrafish ultraviolet visual pigment: absorption spectrum,
@@ -154,14 +149,14 @@ Stewart, W.~J. \& McHenry, M.~J., 2010 {Sensing the strike of a predator fish
   depends on the specific gravity of a prey fish}.
 \newblock \emph{J. Exp. Biol.} \textbf{213}, 3769--3777.
 
+\bibitem{MasseyJr:1951jo}
+Massey, F.~J., Jr., 1951 {The Kolmogorov-Smirnov Test for Goodness of Fit}.
+\newblock \emph{J. Am. Stat. Assoc.} \textbf{46}, 68--78.
+
 \bibitem{Wainwright:2007uq}
 Wainwright, P.~C. \& Day, S.~W., 2007 {The forces exerted by suction feeders on
   their prey}.
 \newblock \emph{J.R. Soc. Interface} \textbf{4}, 553--560.
-
-\bibitem{MasseyJr:1951jo}
-Massey, F.~J., Jr., 1951 {The Kolmogorov-Smirnov Test for Goodness of Fit}.
-\newblock \emph{J. Am. Stat. Assoc.} \textbf{46}, 68--78.
 
 \bibitem{Isaacs:1965uz}
 Isaacs, R., 1965 {Differential Games. A Mathematical Theory with Applications
